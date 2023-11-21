@@ -101,24 +101,6 @@
 			<useLookupValue>false</useLookupValue>
 		</globalVariable>
 		<globalVariable>
-			<name>/SharedResources/HTTP/host</name>
-			<value></value>
-			<deploymentSettable>false</deploymentSettable>
-			<serviceSettable>false</serviceSettable>
-			<type>String</type>
-			<isOverride>false</isOverride>
-			<useLookupValue>false</useLookupValue>
-		</globalVariable>
-		<globalVariable>
-			<name>/SharedResources/HTTP/port</name>
-			<value>18080</value>
-			<deploymentSettable>false</deploymentSettable>
-			<serviceSettable>false</serviceSettable>
-			<type>Integer</type>
-			<isOverride>false</isOverride>
-			<useLookupValue>false</useLookupValue>
-		</globalVariable>
-		<globalVariable>
 			<name>/EnvOperations/AWS-S3/fileKey</name>
 			<value>User_Data.csv</value>
 			<deploymentSettable>false</deploymentSettable>

@@ -168,26 +168,6 @@
 			<lookupValue>#//sharedLibrary///SharedResources/AWS/secretKey#</lookupValue>
 		</globalVariable>
 		<globalVariable>
-			<name>//sharedLibrary///SharedResources/HTTP/port</name>
-			<value>18080</value>
-			<deploymentSettable>false</deploymentSettable>
-			<serviceSettable>false</serviceSettable>
-			<type>Integer</type>
-			<isOverride>true</isOverride>
-			<useLookupValue>false</useLookupValue>
-			<lookupValue>%%/SharedResources/HTTP/port%%</lookupValue>
-		</globalVariable>
-		<globalVariable>
-			<name>//sharedLibrary///SharedResources/HTTP/host</name>
-			<value></value>
-			<deploymentSettable>false</deploymentSettable>
-			<serviceSettable>false</serviceSettable>
-			<type>String</type>
-			<isOverride>true</isOverride>
-			<useLookupValue>false</useLookupValue>
-			<lookupValue>%%/SharedResources/HTTP/host%%</lookupValue>
-		</globalVariable>
-		<globalVariable>
 			<name>//sharedLibrary///EnvOperations/AWS-S3/fileKey</name>
 			<value>#//sharedLibrary///EnvOperations/AWS-S3/fileKey#</value>
 			<deploymentSettable>false</deploymentSettable>
