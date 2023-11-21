@@ -129,63 +129,63 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//sharedLibrary///SharedResources/AWS/accessKey</name>
-			<value>#//sharedLibrary///SharedResources/AWS/accessKey#</value>
+			<value>${{ values.aws_accessKey }}</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>true</isOverride>
 			<useLookupValue>true</useLookupValue>
-			<lookupValue>#//sharedLibrary///SharedResources/AWS/accessKey#</lookupValue>
+			<lookupValue>${{ values.aws_accessKey }}</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//sharedLibrary///SharedResources/AWS/sessionToken</name>
-			<value>#//sharedLibrary///SharedResources/AWS/sessionToken#</value>
+			<value>${{ values.aws_sessionToken }}</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>Password</type>
 			<isOverride>true</isOverride>
 			<useLookupValue>true</useLookupValue>
-			<lookupValue>#//sharedLibrary///SharedResources/AWS/sessionToken#</lookupValue>
+			<lookupValue>${{ values.aws_sessionToken }}</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//sharedLibrary///SharedResources/AWS/region</name>
-			<value>#//sharedLibrary///SharedResources/AWS/region#</value>
+			<value>${{ values.aws_region }}</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>true</isOverride>
 			<useLookupValue>true</useLookupValue>
-			<lookupValue>#//sharedLibrary///SharedResources/AWS/region#</lookupValue>
+			<lookupValue>${{ values.aws_region }}</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//sharedLibrary///SharedResources/AWS/secretKey</name>
-			<value>#//sharedLibrary///SharedResources/AWS/secretKey#</value>
+			<value>${{ values.aws_accessSecretKey }}</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>Password</type>
 			<isOverride>true</isOverride>
 			<useLookupValue>true</useLookupValue>
-			<lookupValue>#//sharedLibrary///SharedResources/AWS/secretKey#</lookupValue>
+			<lookupValue>${{ values.aws_accessSecretKey }}</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//sharedLibrary///EnvOperations/AWS-S3/fileKey</name>
-			<value>#//sharedLibrary///EnvOperations/AWS-S3/fileKey#</value>
+			<value>${{ values.aws_fileKey }}</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>true</isOverride>
 			<useLookupValue>true</useLookupValue>
-			<lookupValue>#//sharedLibrary///EnvOperations/AWS-S3/fileKey#</lookupValue>
+			<lookupValue>${{ values.aws_fileKey }}</lookupValue>
 		</globalVariable>
 		<globalVariable>
-			<name>//sharedLibrary///EnvOperations/AWS-S3/bucketName</name>
-			<value>#//sharedLibrary///EnvOperations/AWS-S3/bucketName#</value>
+			<name>//sharedLibrary///EnvOperations/AWS-S3/aws_bucketName</name>
+			<value>${{ values.aws_bucketName }}</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>true</isOverride>
 			<useLookupValue>true</useLookupValue>
-			<lookupValue>#//sharedLibrary///EnvOperations/AWS-S3/bucketName#</lookupValue>
+			<lookupValue${{ values.aws_bucketName }}</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//sharedLibrary///EnvOperations/AWS-S3/destinationFileLocation</name>
