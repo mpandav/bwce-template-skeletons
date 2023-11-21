@@ -1,2 +1,2 @@
-# bwce-template-skeletons
-This contains the BWCE Templates that will be used in the TIBCO Developer Hub
+# bwce-templates
+This contains the BWCE BWCE Base Templates for TIBCO Developer Hub
