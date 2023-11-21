@@ -120,7 +120,7 @@
 		</globalVariable>
 		<globalVariable>
 			<name>/EnvOperations/AWS-S3/destinationFileLocation</name>
-			<value>/Users/mpandav/tmp/odido/s3/</value>
+			<value>/tmp/odido/s3/</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
