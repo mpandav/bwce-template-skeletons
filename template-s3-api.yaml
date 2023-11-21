@@ -1,9 +1,9 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: fedex-bwce-template-otk
-  title: FedEx - BWCE - Order to Kafka
-  description: Create a new FedEx - BWCE project for an order to Kafka
+  name: odido-bwce-template-s3-api
+  title: Odido - BWCE - Download File from S3 bucket as a Service
+  description: Create a new Odido - BWCE project to Download File from S3 bucket
   tags:
   - tibco
   - bwce
@@ -24,6 +24,35 @@ spec:
         description: Unique name of the BWCE Project
         ui:field: EntityNamePicker
         ui:autofocus: true
+        # AWS Connection parameters
+        aws_accessKey:
+          title: AWS Access Key
+          type: string
+          description: The AWS Access Key that this BWCE-Project should use to Connect with AWS Instance (S3 bucket connectivity)
+          default: 'ASIARC55DQGXXON3TR7X'
+        aws_accessSecretKey:
+          title: AWS Access Secret Key
+          type: string
+          description: The AWS Access Secret Key that this BWCE-Project should use to Connect with AWS Instance (S3 bucket connectivity)
+          default: '#!Ur54lVPPs47bGTRzTDMyOaQhnjYIfbloim4Atg6HV08='
+          ui:widget: password # will print '******' as value for property 'password' on Review Step
+        aws_sessionToken:
+          title: AWS Session Token
+          type: string
+          description: The AWS Session Token that this BWCE-Project should use to Connect with AWS Instance (S3 bucket connectivity)
+          default: '#!Ur54lVPPs47bGTRzTDMyOaQhnjYIfbloim4Atg6HV08='
+          ui:widget: password # will print '******' as value for property 'password' on Review Step
+          # AWS Functional parameters 
+        aws_fileKey:
+          title: Name of File to download
+          type: string
+          description: The File (key) that this BWCE-Project should download through BWCE-Project as a service (S3 bucket as a service)
+          default: 'User_Data.csv'
+        aws_bucketName:
+          title: AWS Bucket Name
+          type: string
+          description: The AWS S3 Bucket that this BWCE-Project should expose through BWCE-Project as a service (S3 bucket as a service)
+          default: 'odido-bwce-demo-bucket'
       description:
         title: Description
         type: string
@@ -32,14 +61,6 @@ spec:
         title: Hub Location
         type: string
         description: The hub location where the project will be deployed
-      system:
-        title: System
-        type: string
-        description: Target System to Send Order To
-        ui:field: EntityPicker
-        ui:options:
-          catalogFilter:
-            kind: API
       owner:
         title: Owner
         type: string
@@ -68,13 +89,17 @@ spec:
     name: BWCE Skeleton
     action: fetch:template
     input:
-      url: ./skeleton-order-to-kafka
+      url: ./skeleton-s3-api
       values:
         name: ${{ parameters.name }}
         description: ${{ parameters.description }}
         destination: ${{ parameters.repoUrl | parseRepoUrl }}
         owner: ${{ parameters.owner }}
-        system: ${{ parameters.system }}
+        aws_accessKey: ${{ parameters.aws_accessKey }}
+        aws_accessSecretKey: ${{ parameters.aws_accessSecretKey }}
+        aws_sessionToken: ${{ parameters.aws_sessionToken }}
+        aws_fileKey: ${{ parameters.aws_fileKey }}
+        aws_bucketName: ${{ parameters.aws_bucketName }}
 
   - id: publish
     name: Publish
@@ -90,6 +115,14 @@ spec:
     input:
       repoContentsUrl: ${{ steps.publish.output.repoContentsUrl }}
       catalogInfoPath: "/catalog-info.yaml"
+
+  #  - id: jenkinsEarBuild
+  #    name: Trigger Jenkins EAR Build
+  #    action: tibco:jenkins-trigger-ear-build
+  #    input:
+  #      name: ${{ parameters.name }}
+  #      job: Build_BWCE_EAR
+
 
   output:
     links:
