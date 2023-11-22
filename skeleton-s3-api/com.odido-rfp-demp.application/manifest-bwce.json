@@ -1,0 +1,138 @@
+{
+	"name" : "com.odido-rfp-demp.application",
+	"version" : "1.0",
+	"type" : "bwce",
+	"defaultProfile" : "default.substvar",
+	"appProperties" : [
+		{
+			"profile" : "Prod.substvar",
+			"properties" : [
+				{
+					"name" : "__SlAsH____SlAsH__sharedLibrary__SlAsH____SlAsH____SlAsH__EnvOperations__SlAsH__AWS-S3__SlAsH__destinationFileLocation",
+					"datatype" : "string",
+					"default" : "/tmp/odido/s3/"
+				}
+			]
+		},
+		{
+			"profile" : "default.substvar",
+			"properties" : [
+				{
+					"name" : "__SlAsH____SlAsH__sharedLibrary__SlAsH____SlAsH____SlAsH__EnvOperations__SlAsH__AWS-S3__SlAsH__destinationFileLocation",
+					"datatype" : "string",
+					"default" : "/tmp/odido/s3/"
+				}
+			]
+		},
+		{
+			"profile" : "Test.substvar",
+			"properties" : [
+				{
+					"name" : "__SlAsH____SlAsH__sharedLibrary__SlAsH____SlAsH____SlAsH__EnvOperations__SlAsH__AWS-S3__SlAsH__destinationFileLocation",
+					"datatype" : "string",
+					"default" : "/tmp/odido/s3/"
+				}
+			]
+		},
+		{
+			"profile" : "Dev.substvar",
+			"properties" : [
+				{
+					"name" : "__SlAsH____SlAsH__sharedLibrary__SlAsH____SlAsH____SlAsH__EnvOperations__SlAsH__AWS-S3__SlAsH__destinationFileLocation",
+					"datatype" : "string",
+					"default" : "/tmp/odido/s3/"
+				}
+			]
+		}
+	],
+	"volumesFrom" : [
+		"bwplugin/bw.amazons3;version=6.6.0",
+		"bwplugin/bw.sftp;version=6.1.4"
+	],
+	"endpoints" : [
+		{
+			"name" : "Files-FileName",
+			"protocol" : "http",
+			"port" : "null",
+			"spec" : {
+				"name" : "com.odido-rfp-demp.application",
+				"version" : "v1"
+			},
+			"swagger" : {
+  "openapi" : "3.0.0",
+  "info" : {
+    "title" : "Swagger File Operations - OpenAPI 3.0",
+    "description" : "A API spec for file operations",
+    "version" : "1.0.11"
+  },
+  "servers" : [ {
+    "url" : "/"
+  } ],
+  "tags" : [ {
+    "name" : "file",
+    "description" : "Operations about Files"
+  } ],
+  "paths" : {
+    "/files/{FileName}" : {
+      "get" : {
+        "tags" : [ "file" ],
+        "summary" : "Returns the requested ZIP file as \"file download\" i.e. with content-disposition = attachment",
+        "description" : "Returns a file from S3 bucket",
+        "parameters" : [ {
+          "name" : "FileName",
+          "in" : "path",
+          "required" : true,
+          "style" : "simple",
+          "explode" : false,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "content" : {
+              "application/zip" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/File"
+                }
+              }
+            }
+          },
+          "400" : {
+            "description" : "Invalid filename supplied"
+          },
+          "404" : {
+            "description" : "File not found with name provided"
+          }
+        }
+      }
+    }
+  },
+  "components" : {
+    "schemas" : {
+      "File" : {
+        "type" : "string",
+        "format" : "binary"
+      }
+    }
+  }
+}
+		},
+		{
+			"name" : "GetFileAttachmentPortType",
+			"protocol" : "http",
+			"port" : "null",
+			"spec" : {
+				"name" : "com.odido-rfp-demp.application",
+				"version" : "v1"
+			}
+		},
+		{
+			"type" : "private",
+			"pingable" : true,
+			"protocol" : "http",
+			"port" : "8090"
+		}
+	]
+}

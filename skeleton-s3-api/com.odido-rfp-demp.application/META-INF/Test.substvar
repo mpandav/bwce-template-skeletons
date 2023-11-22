@@ -178,16 +178,6 @@
 			<lookupValue>${{ values.aws_fileKey }}</lookupValue>
 		</globalVariable>
 		<globalVariable>
-			<name>//sharedLibrary///EnvOperations/AWS-S3/aws_bucketName</name>
-			<value>${{ values.aws_bucketName }}</value>
-			<deploymentSettable>false</deploymentSettable>
-			<serviceSettable>false</serviceSettable>
-			<type>String</type>
-			<isOverride>true</isOverride>
-			<useLookupValue>true</useLookupValue>
-			<lookupValue>${{ values.aws_bucketName }}</lookupValue>
-		</globalVariable>
-		<globalVariable>
 			<name>//sharedLibrary///EnvOperations/AWS-S3/destinationFileLocation</name>
 			<value>#//sharedLibrary///EnvOperations/AWS-S3/destinationFileLocation#</value>
 			<deploymentSettable>false</deploymentSettable>
@@ -196,6 +186,15 @@
 			<isOverride>true</isOverride>
 			<useLookupValue>true</useLookupValue>
 			<lookupValue>#//sharedLibrary///EnvOperations/AWS-S3/destinationFileLocation#</lookupValue>
+		</globalVariable>
+		<globalVariable>
+			<name>//sharedLibrary///EnvOperations/AWS-S3/bucketName</name>
+			<value>odido-bwce-demo-bucket</value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+			<useLookupValue>false</useLookupValue>
 		</globalVariable>
 	</globalVariables>
 </repository>
