@@ -1,9 +1,9 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: odido-bwce-template-s3-api
-  title: Odido - BWCE - Download File from S3 bucket as a Service (V3)
-  description: Create a new Odido - BWCE project to Download File from S3 bucket
+  name: odido-bwce-template-demo-ucs
+  title: Odido - BWCE - Demo Usecases
+  description: Create a new Odido - BWCE project to see Demo Uscase Implementation
   tags:
   - tibco
   - bwce
