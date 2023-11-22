@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:_0db58d87-d48b-43d4-b25c-6f88af271c26="http://ns.tibco.com/bw/palette/dataformat/0db58d87-d48b-43d4-b25c-6f88af271c26" xmlns:dataformat="http://ns.tibco.com/bw/palette/dataformat" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmi:id="_ngYpoIO0Ee6VjqNlKeP8vA" name="DataFormat.DataFormatResource" type="dataformat:DataFormat">
+  <imports xmi:id="_D_4JEIO1Ee6VjqNlKeP8vA" importType="http://www.w3.org/2001/XMLSchema" namespace="http://ns.tibco.com/bw/palette/dataformat/0db58d87-d48b-43d4-b25c-6f88af271c26"/>
+  <jndi:configuration xsi:type="dataformat:DataFormat" xmi:id="_ngcUAIO0Ee6VjqNlKeP8vA" formatType="Delimiter separated" colSeparator="," colSeparatorParseRule="Treat all characters as entered as a single column separator string" lineSeparator="New Line" fillCharacter="Space" schemaElementQName="_0db58d87-d48b-43d4-b25c-6f88af271c26:Employee" fieldOffsetsStr="employee_id(0,0)&#xA;first_name(0,0)&#xA;last_name(0,0)&#xA;email(0,0)&#xA;gender(0,0)&#xA;ip_address(0,0)&#xA;age(0,0)&#xA;start_date(0,0)&#xA;salary(0,0)&#xA;country(0,0)&#xA;postal_code(0,0)&#xA;favorite_color(0,0)">
+    <fieldOffsets xmi:id="_EAhCQIO1Ee6VjqNlKeP8vA" name="employee_id"/>
+    <fieldOffsets xmi:id="_EAhCQYO1Ee6VjqNlKeP8vA" name="first_name"/>
+    <fieldOffsets xmi:id="_EAhCQoO1Ee6VjqNlKeP8vA" name="last_name"/>
+    <fieldOffsets xmi:id="_EAhCQ4O1Ee6VjqNlKeP8vA" name="email"/>
+    <fieldOffsets xmi:id="_EAhCRIO1Ee6VjqNlKeP8vA" name="gender"/>
+    <fieldOffsets xmi:id="_EAhCRYO1Ee6VjqNlKeP8vA" name="ip_address"/>
+    <fieldOffsets xmi:id="_EAhCRoO1Ee6VjqNlKeP8vA" name="age"/>
+    <fieldOffsets xmi:id="_EAhCR4O1Ee6VjqNlKeP8vA" name="start_date"/>
+    <fieldOffsets xmi:id="_EAhCSIO1Ee6VjqNlKeP8vA" name="salary"/>
+    <fieldOffsets xmi:id="_EAhCSYO1Ee6VjqNlKeP8vA" name="country"/>
+    <fieldOffsets xmi:id="_EAhCSoO1Ee6VjqNlKeP8vA" name="postal_code"/>
+    <fieldOffsets xmi:id="_EAhCS4O1Ee6VjqNlKeP8vA" name="favorite_color"/>
+  </jndi:configuration>
+</jndi:namedResource>

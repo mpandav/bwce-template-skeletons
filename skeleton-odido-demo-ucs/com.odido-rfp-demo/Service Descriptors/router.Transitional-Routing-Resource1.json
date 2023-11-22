@@ -1,0 +1,105 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "version" : "1.0",
+    "title" : "Resource1",
+    "description" : "Resource1 service"
+  },
+  "host" : "localhost:8080",
+  "basePath" : "/",
+  "schemes" : [ "http" ],
+  "paths" : {
+    "/route/v2" : {
+      "get" : {
+        "summary" : "getResource1",
+        "description" : "getResource1",
+        "operationId" : "get-route-v2",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json", "application/xml", "text/plain" ],
+        "parameters" : [ {
+          "name" : "backend",
+          "in" : "header",
+          "description" : "",
+          "type" : "string",
+          "required" : false
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "a string to be returned",
+            "schema" : {
+              "type" : "string"
+            },
+            "headers" : { }
+          },
+          "304" : {
+            "description" : "Not Modified",
+            "schema" : {
+              "type" : "string"
+            }
+          },
+          "400" : {
+            "description" : "Bad Request",
+            "schema" : {
+              "type" : "string"
+            }
+          },
+          "401" : {
+            "description" : "Unauthorized",
+            "schema" : {
+              "type" : "string"
+            }
+          },
+          "307" : {
+            "description" : "Temporary Redirect",
+            "schema" : {
+              "type" : "string"
+            }
+          },
+          "403" : {
+            "description" : "Forbidden",
+            "schema" : {
+              "type" : "string"
+            }
+          },
+          "404" : {
+            "description" : "Not Found",
+            "schema" : {
+              "type" : "string"
+            }
+          },
+          "201" : {
+            "description" : "Created",
+            "schema" : {
+              "type" : "string"
+            }
+          },
+          "202" : {
+            "description" : "Accepted",
+            "schema" : {
+              "type" : "string"
+            }
+          },
+          "204" : {
+            "description" : "No Content",
+            "schema" : {
+              "type" : "string"
+            }
+          },
+          "301" : {
+            "description" : "Moved Permanently",
+            "schema" : {
+              "type" : "string"
+            }
+          },
+          "303" : {
+            "description" : "See Other",
+            "schema" : {
+              "type" : "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : { }
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jdbc="http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmlns:subject="http://xsd.tns.tibco.com/trinity/models/identity/subject" xmi:id="_7FsjcIRQEe6IlNDnN1QGtA" name="jdbc.JDBCConnectionResource-RDS" type="jdbc:JdbcDataSource">
+  <jndi:reference xmi:id="_7Gt3IIRQEe6IlNDnN1QGtA" key="subjectJndiName" type="subject:SubjectConfiguration" value=""/>
+  <jndi:configuration xsi:type="jdbc:JdbcDataSource" xmi:id="_7Gt3IYRQEe6IlNDnN1QGtA">
+    <substitutionBindings xmi:id="_KEi64IiPEe6EW_e6zNUQOw" template="password" propName="/SharedResources/JDBC/passWord"/>
+    <substitutionBindings xmi:id="_Uhok0IiPEe6EW_e6zNUQOw" template="username" propName="/SharedResources/JDBC/userName"/>
+    <connectionConfig xsi:type="jdbc:NonXaConnection" xmi:id="_7GwTYIRQEe6IlNDnN1QGtA" jdbcDriver="org.mariadb.jdbc.Driver">
+      <substitutionBindings xmi:id="_WbS1IIiPEe6EW_e6zNUQOw" template="dbURL" propName="/SharedResources/JDBC/dbURL"/>
+    </connectionConfig>
+    <connectionProperties xmi:id="_7UgOAIiOEe6EW_e6zNUQOw" key="jarFile" value="mariadb"/>
+  </jndi:configuration>
+</jndi:namedResource>

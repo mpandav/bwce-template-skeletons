@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmlns:kafka="http://ns.tibco.com/bw/sharedresource/kafka" xmlns:keystore="http://xsd.tns.tibco.com/bw/sharedresource/trinity/models/cred/keystore" xmi:id="_b3gekYkxEe6-kZPKY6d4ww" name="kafka.KafkaConnectionResource" type="kafka:KafkaConnection">
+  <jndi:reference xmi:id="_5ZOakIkyEe6-kZPKY6d4ww" key="trustStoreServiceProvider" type="keystore:KeystoreConfiguration" value="sharedlibrary.KeystoreProviderResource"/>
+  <jndi:configuration xsi:type="kafka:KafkaConnection" xmi:id="_b3i60IkxEe6-kZPKY6d4ww" reconnectBackoffMs="50" retryBackoffMs="100" requestTimeout="40000" metadataMaxAge="300000" SSL="true" Authentication="true" AuthenticationType="Simple Username &amp; Password (PLAIN)" SchemaRegistryVendor="None">
+    <substitutionBindings xmi:id="_3grkkIkyEe6-kZPKY6d4ww" template="bootstrapServers" propName="/SharedResources/KAFKA/borkerURL"/>
+    <substitutionBindings xmi:id="_BYWNQIkzEe6-kZPKY6d4ww" template="AuthUsername" propName="/SharedResources/KAFKA/userName"/>
+    <substitutionBindings xmi:id="_DSCSwIkzEe6-kZPKY6d4ww" template="AuthPassword" propName="/SharedResources/KAFKA/passWord"/>
+  </jndi:configuration>
+</jndi:namedResource>

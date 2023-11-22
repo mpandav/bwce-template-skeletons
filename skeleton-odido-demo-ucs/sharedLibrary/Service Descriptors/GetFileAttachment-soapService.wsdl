@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="GetFileAttachmentPortType" targetNamespace="http://www.example.com/interface/attachments" xmlns:soapenc11="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns0="http://www.example.com/interface/attachments" xmlns:bwh="http://www.tibco.com/4778606aa0de414a89eefaf896d3d5a6/SOAPServiceBinding1" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://ws-i.org/profiles/basic/1.1/xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap11="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns1="http://www.tibco.com/bs3.2/extensions" xmlns:tns2="http://schemas.xmlsoap.org/wsdl/http/">
+  <wsdl:types>
+  </wsdl:types>
+  <wsdl:message name="getFileAttachmentSoapOut">
+    <wsdl:part name="fileMetaData" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="fileContents" type="xsd:base64Binary">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getFileAttachmentSoapIn">
+    <wsdl:part name="fileName" type="xsd:string">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="GetFileAttachmentPortType">
+    <wsdl:operation name="getFileAttachment">
+      <wsdl:input message="tns0:getFileAttachmentSoapIn">
+    </wsdl:input>
+      <wsdl:output message="tns0:getFileAttachmentSoapOut">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SOAPServiceBinding1" type="tns0:GetFileAttachmentPortType">
+    <soap11:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="getFileAttachment">
+      <soap11:operation soapAction="getFileAttachment" style="document" wsdl:required="true"/>
+      <wsdl:input>
+        <soap11:body parts="fileName" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:multipartRelated>
+          <mime:part>
+            <mime:content part="fileContents" type=""/>
+            <soap11:body parts="fileMetaData" use="literal"/>
+          </mime:part>
+        </mime:multipartRelated>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="GetFileAttachmentPortType">
+    <wsdl:port name="GetFileAttachmentPortTypePort" binding="tns0:SOAPServiceBinding1">
+      <soap11:address location="http://localhost:18080/SOAPServiceBinding1/getFileAttachmentPortType/"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

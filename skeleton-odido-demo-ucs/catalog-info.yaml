@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ${{values.name | dump}}
+  description: ${{values.description | dump}}
+  links:
+  - title: TIBCO Home
+    url: https://www.tibco.com/
+  - title: TIBCO Documentation
+    url: https://docs.tibco.com/
+  annotations:
+    github.com/project-slug: ${{values.destination.owner + "/" + values.destination.repo}}
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: ${{values.destination.repo}}
+    jenkins.io/job-full-name: Build_Deploy_BWCE_TIBCO_PLATFORM
+spec:
+  type: service
+  lifecycle: development
+  owner: ${{values.owner | dump}}

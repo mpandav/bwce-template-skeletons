@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:GetFileServiceAbstractWSDL="http://www.tibco.com/GetFileServiceAbstractWSDL/" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:attachments="http://www.example.com/interface/attachments" xmlns:axis2="http://xsd.tns.tibco.com/bw/models/binding/soap/axis2" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:parameters="http://xmlns.example.com/routing-service/parameters" xmlns:parameters_1="http://xmlns.example.com/router/parameters" xmlns:rest="http://xsd.tns.tibco.com/bw/models/binding/rest" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scact="http://xsd.tns.tibco.com/amf/models/sca/componentType" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_97O5YILgEe6jBansLhUkCQ" targetNamespace="http://tns.tibco.com/bw/composite/com.odido-rfp-demo" name="com.odido-rfp-demo" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:service xmi:id="_ELzWIIigEe6YQ4HIUvwafQ" name="route-v1" promote="ComponentDynamic-Routing/route-v1">
+    <sca:interface.wsdl xmi:id="_EMSeUIigEe6YQ4HIUvwafQ" interface="http://xmlns.example.com/20231121195814PLT#wsdl.interface(route-v1)" scaext:wsdlLocation="../Processes/router/Dynamic-Routing.bwp"/>
+    <scaext:binding xsi:type="rest:RestServiceBinding" xmi:id="_EMggwIigEe6YQ4HIUvwafQ" name="RestService" path="/route/v1" docBasePath="http://localhost:7777/com.odido-rfp-demo" docResourcePath="Resource" basePath="/" connector="http.Resource" structuredData="true" technologyVersion="2.0" implementation="Service Descriptors/router.Dynamic-Routing-Resource.json">
+      <operation xmi:id="_EMi9AIigEe6YQ4HIUvwafQ" operationName="get" nickname="get-route-v1" httpMethod="GET" notes="getResource" responseStyle="element" outputPartName="msg">
+        <parameters xmi:id="_cuZ3UIiiEe6PRJ0JXm-icA">
+          <parameterMapping xmi:id="_cudhsIiiEe6PRJ0JXm-icA" parameterName="backend" parameterType="Header" dataType="string" description=""/>
+        </parameters>
+        <clientFormat>json</clientFormat>
+        <clientFormat>xml</clientFormat>
+        <clientFormat>text</clientFormat>
+        <clientRequestFormat>json</clientRequestFormat>
+      </operation>
+      <parameters xmi:id="_ENsMgIigEe6YQ4HIUvwafQ"/>
+      <advancedConfig xmi:id="_EMggwYigEe6YQ4HIUvwafQ" blockingQueueSize="8192"/>
+    </scaext:binding>
+    <scact:bindingAdjunct xmi:id="_EMi9AYigEe6YQ4HIUvwafQ" bindingName="RestService"/>
+  </sca:service>
+  <sca:service xmi:id="_TL_X0YigEe6YQ4HIUvwafQ" name="route-v2" promote="ComponentTransitional-Routing/route-v2">
+    <sca:interface.wsdl xmi:id="_TL_X1YigEe6YQ4HIUvwafQ" interface="http://xmlns.example.com/20231121195745PLT#wsdl.interface(route-v2)" scaext:wsdlLocation="../Processes/router/Transitional-Routing.bwp"/>
+    <scaext:binding xsi:type="rest:RestServiceBinding" xmi:id="_TMBNAIigEe6YQ4HIUvwafQ" name="RestService1" path="/route/v2" docBasePath="http://localhost:7777/com.odido-rfp-demo" docResourcePath="Resource1" basePath="/" connector="http.Resource" structuredData="true" technologyVersion="2.0" implementation="Service Descriptors/router.Transitional-Routing-Resource1.json">
+      <operation xmi:id="_TMB0EIigEe6YQ4HIUvwafQ" operationName="get" nickname="get-route-v2" httpMethod="GET" notes="getResource1" responseStyle="element" outputPartName="msg">
+        <parameters xmi:id="_uIgzMIihEe6PRJ0JXm-icA">
+          <parameterMapping xmi:id="_uIioYIihEe6PRJ0JXm-icA" parameterName="backend" parameterType="Header" dataType="string" description=""/>
+        </parameters>
+        <responseStatus xmi:id="_CA9LAIinEe6PRJ0JXm-icA" statusCode="200" reasonPhrase="OK" dataType="string"/>
+        <responseStatus xmi:id="_CxcMwIinEe6PRJ0JXm-icA" statusCode="201" reasonPhrase="Created" dataType="string"/>
+        <responseStatus xmi:id="_C3yFUIinEe6PRJ0JXm-icA" statusCode="202" reasonPhrase="Accepted" dataType="string"/>
+        <responseStatus xmi:id="_C8N5YIinEe6PRJ0JXm-icA" statusCode="204" reasonPhrase="No Content" dataType="string"/>
+        <responseStatus xmi:id="_C9x_oIinEe6PRJ0JXm-icA" statusCode="301" reasonPhrase="Moved Permanently" dataType="string"/>
+        <responseStatus xmi:id="_C_xjsIinEe6PRJ0JXm-icA" statusCode="303" reasonPhrase="See Other" dataType="string"/>
+        <responseStatus xmi:id="_DBmIoIinEe6PRJ0JXm-icA" statusCode="304" reasonPhrase="Not Modified" dataType="string"/>
+        <responseStatus xmi:id="_DFa4sIinEe6PRJ0JXm-icA" statusCode="307" reasonPhrase="Temporary Redirect" dataType="string"/>
+        <responseStatus xmi:id="_DHU9MIinEe6PRJ0JXm-icA" statusCode="400" reasonPhrase="Bad Request" dataType="string"/>
+        <responseStatus xmi:id="_DJan4IinEe6PRJ0JXm-icA" statusCode="401" reasonPhrase="Unauthorized" dataType="string"/>
+        <responseStatus xmi:id="_DLJGMIinEe6PRJ0JXm-icA" statusCode="403" reasonPhrase="Forbidden" dataType="string"/>
+        <responseStatus xmi:id="_DM5ZsIinEe6PRJ0JXm-icA" statusCode="404" reasonPhrase="Not Found" dataType="string"/>
+        <clientFormat>json</clientFormat>
+        <clientFormat>xml</clientFormat>
+        <clientFormat>text</clientFormat>
+        <clientRequestFormat>json</clientRequestFormat>
+      </operation>
+      <parameters xmi:id="_TMGskIigEe6YQ4HIUvwafQ"/>
+      <advancedConfig xmi:id="_TMBNAYigEe6YQ4HIUvwafQ" blockingQueueSize="8192"/>
+    </scaext:binding>
+    <scact:bindingAdjunct xmi:id="_TMB0EYigEe6YQ4HIUvwafQ" bindingName="RestService1"/>
+  </sca:service>
+  <sca:property xmi:id="_-s2jkILgEe6jBansLhUkCQ" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_-tL6wILgEe6jBansLhUkCQ" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_-tNv8ILgEe6jBansLhUkCQ" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_-tQzQILgEe6jBansLhUkCQ" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_-tSBYILgEe6jBansLhUkCQ" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_-tUdoILgEe6jBansLhUkCQ" name="BW.CLOUD.PORT" type="XMLSchema:int" scalable="true"/>
+  <sca:property xmi:id="_-tVrwILgEe6jBansLhUkCQ" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:component xmi:id="_Y16ZQIiWEe6YQ4HIUvwafQ" name="Component2Process" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_Y2LfAIiWEe6YQ4HIUvwafQ" processName="scheduler.rds.transactional.JDBC-Transaction"/>
+  </sca:component>
+  <sca:component xmi:id="_mxb48IiWEe6YQ4HIUvwafQ" name="ComponentGetData" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_mxb48YiWEe6YQ4HIUvwafQ" processName="scheduler.rds.data.GetData"/>
+  </sca:component>
+  <sca:component xmi:id="_mLdPUIicEe6YQ4HIUvwafQ" name="ComponentCall-Java-Method" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_mLd2YIicEe6YQ4HIUvwafQ" processName="scheduler.java.Java-Invoke"/>
+  </sca:component>
+  <sca:component xmi:id="_AGZ48IieEe6YQ4HIUvwafQ" name="ComponentJava-RDS-Invoke" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_AGZ48YieEe6YQ4HIUvwafQ" processName="scheduler.java.Java-RDS-Invoke"/>
+  </sca:component>
+  <sca:component xmi:id="_25P68IifEe6YQ4HIUvwafQ" name="ComponentTransitional-Routing" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_25P68YifEe6YQ4HIUvwafQ" processName="router.Transitional-Routing"/>
+    <sca:service xmi:id="_TL-wwIigEe6YQ4HIUvwafQ" name="route-v2">
+      <sca:interface.wsdl xmi:id="_TL_X0IigEe6YQ4HIUvwafQ" interface="http://xmlns.example.com/20231121195745PLT#wsdl.interface(route-v2)" scaext:wsdlLocation="../Processes/router/Transitional-Routing.bwp"/>
+    </sca:service>
+  </sca:component>
+  <sca:component xmi:id="_7Is98IifEe6YQ4HIUvwafQ" name="ComponentDynamic-Routing" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_7Is98YifEe6YQ4HIUvwafQ" processName="router.Dynamic-Routing"/>
+    <sca:service xmi:id="_ELtPgIigEe6YQ4HIUvwafQ" name="route-v1">
+      <sca:interface.wsdl xmi:id="_ELvEsIigEe6YQ4HIUvwafQ" interface="http://xmlns.example.com/20231121195814PLT#wsdl.interface(route-v1)" scaext:wsdlLocation="../Processes/router/Dynamic-Routing.bwp"/>
+    </sca:service>
+  </sca:component>
+  <sca:component xmi:id="_9YDJYIiqEe6PRJ0JXm-icA" name="ComponentServer" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_9YDJYYiqEe6PRJ0JXm-icA" processName="jms.Server"/>
+  </sca:component>
+  <sca:component xmi:id="_-yGFgIiqEe6PRJ0JXm-icA" name="ComponentClient" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_-yGFgYiqEe6PRJ0JXm-icA" processName="jms.Client"/>
+  </sca:component>
+  <sca:component xmi:id="_i5LL8IisEe6PRJ0JXm-icA" name="Component3Process" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_i5LL8YisEe6PRJ0JXm-icA" processName="scheduler.sftp.sFTP-File-Processing"/>
+  </sca:component>
+  <sca:component xmi:id="_5cscwIkbEe6-kZPKY6d4ww" name="ComponentFile-Operation-Server" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_5ctq4IkbEe6-kZPKY6d4ww" processName="jms.File-Operation-Server"/>
+  </sca:component>
+  <sca:component xmi:id="_cJsOAIkhEe6-kZPKY6d4ww" name="ComponentFile-Operation-Client" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_cJsOAYkhEe6-kZPKY6d4ww" processName="jms.File-Operation-Client"/>
+  </sca:component>
+  <sca:component xmi:id="_pvUO0IkkEe6-kZPKY6d4ww" name="ComponentEn-De-cryption" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_pvU14IkkEe6-kZPKY6d4ww" processName="confidentiality.Encryption"/>
+  </sca:component>
+  <sca:component xmi:id="_scWYoIkrEe6-kZPKY6d4ww" name="ComponentDecryptiom" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_scWYoYkrEe6-kZPKY6d4ww" processName="confidentiality.Decryptiom"/>
+  </sca:component>
+  <sca:component xmi:id="_wPdd4IkrEe6-kZPKY6d4ww" name="ComponentObfuscation" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_wPdd4YkrEe6-kZPKY6d4ww" processName="confidentiality.Obfuscation"/>
+  </sca:component>
+  <sca:component xmi:id="_P7c8QIkxEe6-kZPKY6d4ww" name="ComponentPublsher" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_P7c8QYkxEe6-kZPKY6d4ww" processName="kafka.Publsher"/>
+  </sca:component>
+  <sca:component xmi:id="_RK-DYIkxEe6-kZPKY6d4ww" name="ComponentSubscriber" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_RK-DYYkxEe6-kZPKY6d4ww" processName="kafka.Subscriber"/>
+  </sca:component>
+</sca:composite>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:confidentiality="http://ns.tibco.com/bw/sharedresource/confidentiality" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmi:id="_CmpigYkqEe6-kZPKY6d4ww" name="confidentiality.ConfidentialityConfigurationResource" type="confidentiality:ConfidentialityConfiguration">
+  <jndi:configuration xsi:type="confidentiality:ConfidentialityConfiguration" xmi:id="_CmqJkIkqEe6-kZPKY6d4ww" KeyStoreType="JCEKS" Provider="SunJCE" DualEncryption="true" EncryptionType="AES/CBC/PKCS5Padding" DataKeyLen="192" ProviderAsTrustore="true">
+    <substitutionBindings xmi:id="_9NlWoIkqEe6-kZPKY6d4ww" template="KeyStoreUrl" propName="/SharedResources/Confidentiality/KeyStoreURL"/>
+    <substitutionBindings xmi:id="_-cNF4IkqEe6-kZPKY6d4ww" template="KeyAliasName" propName="/SharedResources/Confidentiality/KeyAliasName"/>
+    <substitutionBindings xmi:id="__iCFgIkqEe6-kZPKY6d4ww" template="KeyStorePassword" propName="/SharedResources/Confidentiality/KeyStorePassword"/>
+  </jndi:configuration>
+</jndi:namedResource>
