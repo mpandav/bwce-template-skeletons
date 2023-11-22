@@ -2,7 +2,7 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: odido-bwce-template-s3-api
-  title: Odido - BWCE - Download File from S3 bucket as a Service (V2)
+  title: Odido - BWCE - Download File from S3 bucket as a Service (V3)
   description: Create a new Odido - BWCE project to Download File from S3 bucket
   tags:
   - tibco
@@ -122,12 +122,13 @@ spec:
       repoContentsUrl: ${{ steps.publish.output.repoContentsUrl }}
       catalogInfoPath: "/catalog-info.yaml"
 
-  #  - id: jenkinsEarBuild
-  #    name: Trigger Jenkins EAR Build
-  #    action: tibco:jenkins-trigger-ear-build
-  #    input:
-  #      name: ${{ parameters.name }}
-  #      job: Build_BWCE_EAR
+  - id: jenkinsEarBuild
+    name: Trigger Jenkins Dataplane Deployment
+    action: tibco:jenkins-trigger-ear-build
+    input:
+      name: ${{ parameters.name }}
+      job: Build_Deploy_BWCE_TIBCO_PLATFORM
+      jenkinsInstructions: '&bw_project_folder=com.odido-rfp-demp'
 
 
   output:
@@ -137,3 +138,6 @@ spec:
     - title: Open in catalog
       icon: catalog
       entityRef: ${{ steps.register.output.entityRef }}
+    - title: Open Jenkins Job
+      icon: dashboard
+      url: ${{ steps.jenkinsEarBuild.output.jobLink }}
