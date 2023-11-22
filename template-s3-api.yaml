@@ -128,7 +128,7 @@ spec:
     input:
       name: ${{ parameters.name }}
       job: Build_Deploy_BWCE_TIBCO_PLATFORM
-      jenkinsInstructions: '&bw_project_folder=com.odido-rfp-demp'
+      jenkinsInstructions: '&bw_project_folder=com.odido-rfp-demo'
 
 
   output:
