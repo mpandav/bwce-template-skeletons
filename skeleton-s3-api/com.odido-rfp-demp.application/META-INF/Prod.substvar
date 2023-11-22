@@ -2,7 +2,7 @@
 <repository xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xmlns = "http://www.tibco.com/xmlns/repo/types/2002">
 	<globalVariables>
 		<globalVariable>
-			<name>//com.odido-rfp-demp//BW.APPNODE.NAME</name>
+			<name>//com.odido-rfp-demo//BW.APPNODE.NAME</name>
 			<value></value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
@@ -11,7 +11,7 @@
 			<useLookupValue>false</useLookupValue>
 		</globalVariable>
 		<globalVariable>
-			<name>//com.odido-rfp-demp//BW.DEPLOYMENTUNIT.NAME</name>
+			<name>//com.odido-rfp-demo//BW.DEPLOYMENTUNIT.NAME</name>
 			<value></value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
@@ -20,7 +20,7 @@
 			<useLookupValue>false</useLookupValue>
 		</globalVariable>
 		<globalVariable>
-			<name>//com.odido-rfp-demp//BW.HOST.NAME</name>
+			<name>//com.odido-rfp-demo//BW.HOST.NAME</name>
 			<value>localhost</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
@@ -29,7 +29,7 @@
 			<useLookupValue>false</useLookupValue>
 		</globalVariable>
 		<globalVariable>
-			<name>//com.odido-rfp-demp//BW.DEPLOYMENTUNIT.VERSION</name>
+			<name>//com.odido-rfp-demo//BW.DEPLOYMENTUNIT.VERSION</name>
 			<value></value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
@@ -38,7 +38,7 @@
 			<useLookupValue>false</useLookupValue>
 		</globalVariable>
 		<globalVariable>
-			<name>//com.odido-rfp-demp//BW.MODULE.VERSION</name>
+			<name>//com.odido-rfp-demo//BW.MODULE.VERSION</name>
 			<value></value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
@@ -47,7 +47,7 @@
 			<useLookupValue>false</useLookupValue>
 		</globalVariable>
 		<globalVariable>
-			<name>//com.odido-rfp-demp//BW.CLOUD.PORT</name>
+			<name>//com.odido-rfp-demo//BW.CLOUD.PORT</name>
 			<value>8080</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
@@ -56,7 +56,7 @@
 			<useLookupValue>false</useLookupValue>
 		</globalVariable>
 		<globalVariable>
-			<name>//com.odido-rfp-demp//BW.MODULE.NAME</name>
+			<name>//com.odido-rfp-demo//BW.MODULE.NAME</name>
 			<value></value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>

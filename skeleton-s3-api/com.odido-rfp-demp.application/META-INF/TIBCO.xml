@@ -3,49 +3,49 @@
   <packaging:description></packaging:description>
   <packaging:properties>
     <packaging:property>
-      <packaging:name>//com.odido-rfp-demp//BW.APPNODE.NAME</packaging:name>
+      <packaging:name>//com.odido-rfp-demo//BW.APPNODE.NAME</packaging:name>
       <packaging:type>xsd:string</packaging:type>
       <packaging:visibility>private</packaging:visibility>
       <packaging:scalable>true</packaging:scalable>
       <packaging:overrideValue>false</packaging:overrideValue>
     </packaging:property>
     <packaging:property>
-      <packaging:name>//com.odido-rfp-demp//BW.DEPLOYMENTUNIT.NAME</packaging:name>
+      <packaging:name>//com.odido-rfp-demo//BW.DEPLOYMENTUNIT.NAME</packaging:name>
       <packaging:type>xsd:string</packaging:type>
       <packaging:visibility>private</packaging:visibility>
       <packaging:scalable>true</packaging:scalable>
       <packaging:overrideValue>false</packaging:overrideValue>
     </packaging:property>
     <packaging:property>
-      <packaging:name>//com.odido-rfp-demp//BW.HOST.NAME</packaging:name>
+      <packaging:name>//com.odido-rfp-demo//BW.HOST.NAME</packaging:name>
       <packaging:type>xsd:string</packaging:type>
       <packaging:visibility>private</packaging:visibility>
       <packaging:scalable>true</packaging:scalable>
       <packaging:overrideValue>false</packaging:overrideValue>
     </packaging:property>
     <packaging:property>
-      <packaging:name>//com.odido-rfp-demp//BW.DEPLOYMENTUNIT.VERSION</packaging:name>
+      <packaging:name>//com.odido-rfp-demo//BW.DEPLOYMENTUNIT.VERSION</packaging:name>
       <packaging:type>xsd:string</packaging:type>
       <packaging:visibility>private</packaging:visibility>
       <packaging:scalable>true</packaging:scalable>
       <packaging:overrideValue>false</packaging:overrideValue>
     </packaging:property>
     <packaging:property>
-      <packaging:name>//com.odido-rfp-demp//BW.MODULE.VERSION</packaging:name>
+      <packaging:name>//com.odido-rfp-demo//BW.MODULE.VERSION</packaging:name>
       <packaging:type>xsd:string</packaging:type>
       <packaging:visibility>private</packaging:visibility>
       <packaging:scalable>true</packaging:scalable>
       <packaging:overrideValue>false</packaging:overrideValue>
     </packaging:property>
     <packaging:property>
-      <packaging:name>//com.odido-rfp-demp//BW.CLOUD.PORT</packaging:name>
+      <packaging:name>//com.odido-rfp-demo//BW.CLOUD.PORT</packaging:name>
       <packaging:type>xsd:int</packaging:type>
       <packaging:visibility>private</packaging:visibility>
       <packaging:scalable>true</packaging:scalable>
       <packaging:overrideValue>false</packaging:overrideValue>
     </packaging:property>
     <packaging:property>
-      <packaging:name>//com.odido-rfp-demp//BW.MODULE.NAME</packaging:name>
+      <packaging:name>//com.odido-rfp-demo//BW.MODULE.NAME</packaging:name>
       <packaging:type>xsd:string</packaging:type>
       <packaging:visibility>private</packaging:visibility>
       <packaging:scalable>true</packaging:scalable>
@@ -152,7 +152,7 @@
   </packaging:properties>
   <packaging:modules>
     <packaging:module>
-      <packaging:symbolicName>com.odido-rfp-demp</packaging:symbolicName>
+      <packaging:symbolicName>com.odido-rfp-demo</packaging:symbolicName>
       <packaging:technologyType>osgi-bundle,bw-appmodule</packaging:technologyType>
       <packaging:technologyVersion>1.0.0.qualifier</packaging:technologyVersion>
     </packaging:module>
