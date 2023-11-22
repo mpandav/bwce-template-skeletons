@@ -185,7 +185,7 @@
 			<type>String</type>
 			<isOverride>true</isOverride>
 			<useLookupValue>true</useLookupValue>
-			<lookupValue${{ values.aws_bucketName }}</lookupValue>
+			<lookupValue>${{ values.aws_bucketName }}</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//sharedLibrary///EnvOperations/AWS-S3/destinationFileLocation</name>
