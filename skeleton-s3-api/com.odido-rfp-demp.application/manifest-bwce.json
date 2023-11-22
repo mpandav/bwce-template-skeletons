@@ -132,7 +132,7 @@
 			"type" : "private",
 			"pingable" : true,
 			"protocol" : "http",
-			"port" : "8090"
+			"port" : 8090
 		}
 	]
 }
