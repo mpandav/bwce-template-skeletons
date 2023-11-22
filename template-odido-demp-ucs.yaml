@@ -62,12 +62,6 @@ spec:
         description: ${{ parameters.description }}
         destination: ${{ parameters.repoUrl | parseRepoUrl }}
         owner: ${{ parameters.owner }}
-        aws_accessKey: ${{ parameters.aws_accessKey }}
-        aws_accessSecretKey: ${{ parameters.aws_accessSecretKey }}
-        aws_sessionToken: ${{ parameters.aws_sessionToken }}
-        aws_fileKey: ${{ parameters.aws_fileKey }}
-        aws_bucketName: ${{ parameters.aws_bucketName }}
-        aws_region: ${{ parameters.aws_region }}
 
   - id: publish
     name: Publish
@@ -84,13 +78,13 @@ spec:
       repoContentsUrl: ${{ steps.publish.output.repoContentsUrl }}
       catalogInfoPath: "/catalog-info.yaml"
 
-  - id: jenkinsEarBuild
-    name: Trigger Jenkins Dataplane Deployment
-    action: tibco:jenkins-trigger-ear-build
-    input:
-      name: ${{ parameters.name }}
-      job: Build_Deploy_BWCE_TIBCO_PLATFORM
-      jenkinsInstructions: '&bw_project_folder=com.odido-rfp-demp'
+  # - id: jenkinsEarBuild
+  #   name: Trigger Jenkins Dataplane Deployment
+  #   action: tibco:jenkins-trigger-ear-build
+  #   input:
+  #     name: ${{ parameters.name }}
+  #     job: Build_Deploy_BWCE_TIBCO_PLATFORM
+  #     jenkinsInstructions: '&bw_project_folder=com.odido-rfp-demo'
 
 
   output:
