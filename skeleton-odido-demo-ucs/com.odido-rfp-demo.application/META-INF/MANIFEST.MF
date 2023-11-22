@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: com odido-rfp-demp application
-Bundle-SymbolicName: com.odido-rfp-demo.application
+Bundle-SymbolicName: com.odido-demo.application
 Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: TIBCO Software Inc.
 TIBCO-BW-Version: 2.8.3 V39 2023-08-01
