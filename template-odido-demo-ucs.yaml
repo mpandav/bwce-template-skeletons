@@ -3,7 +3,7 @@ kind: Template
 metadata:
   name: odido-bwce-template-demo-ucs
   title: Odido - BWCE - Demo Usecases
-  description: Create a new Odido - BWCE project to see Demo Uscase Implementation
+  description: Create a new Odido - BWCE project to see Demo Uscase implementation
   tags:
   - tibco
   - bwce
