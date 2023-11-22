@@ -56,7 +56,7 @@ spec:
     name: BWCE Skeleton
     action: fetch:template
     input:
-      url: ./skeleton-s3-api
+      url: ./skeleton-odido-demo-ucs
       values:
         name: ${{ parameters.name }}
         description: ${{ parameters.description }}
@@ -94,6 +94,6 @@ spec:
     - title: Open in catalog
       icon: catalog
       entityRef: ${{ steps.register.output.entityRef }}
-    - title: Open Jenkins Job
-      icon: dashboard
-      url: ${{ steps.jenkinsEarBuild.output.jobLink }}
+#    - title: Open Jenkins Job
+#      icon: dashboard
+#      url: ${{ steps.jenkinsEarBuild.output.jobLink }}
