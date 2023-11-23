@@ -129,43 +129,43 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//sharedLibrary///SharedResources/AWS/accessKey</name>
-			<value>ASIARC55DQGXSRJXQK5B</value>
+			<value>${{ values.aws_accessKey }}</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
-			<isOverride>true</isOverride>
+			<isOverride>false</isOverride>
 			<useLookupValue>false</useLookupValue>
-			<lookupValue>%%/SharedResources/AWS/accessKey%%</lookupValue>
+			<lookupValue>${{ values.aws_accessKey }}</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//sharedLibrary///SharedResources/AWS/sessionToken</name>
-			<value>#!qbyJlq3/p5/Dloyg5ALS25DNJKdfH5wwydB2ecbcWumLdlzqoU7i5Fk2Ai/gFQ2YtyF7vtebjvRwB62mH5cnCbS9fpGKivOA0sIUGHJdPpGOl+/yETHoDS2NwFLGoLOQwu+4xgeFoW98qx4p1B6rFvMzZJWgnGVIvlncbiYISWqM8KppWzeSTFDgsSsHrldB23uKfdh54J/63zYYFnmeU5tBgmgFTTwzjWWVT3rC7yLMtS6cHEGNca2ZixMu1RxJdy1oIG/fheCSG6CL5BIgjeIoE/HDaQFEOGCQbvVd05AJ//9DmqJkpexARsqdguYskWoMmz4z9b2I3hZN9s//iddo8BwLSHhGWJrdej2lEXkmdEjtODdB106yfXBRufPjjUxpBhmkhC3ms8+mXYVCoSRjeMRPFlELEk/pAET/OxoWQTXdUNbzk+35PONxgOUzVsuWBQ8nYvqkpa94TYtrRc/OCwTcB8vumtiBvLk3syvvO1JWL66+WlLTAKtMM2AjaQa39UfGA+dPH4XB9hUkWlHzdIeffFvMEj/qeq0U52Q444D4JBctQGmWKRkRhUoo81cI/+MFeww3uP75JwpDmP2EgZsAO3h0ZWwqOzXBoE9AONLJhIfsD0DL2Uj/LydcMFVF15sqYE4KsAybOPhOWOqVA8xjLA4RZ3uX6l6WdUoeTQsqeBXqo8edUnt69DKIIByU3zWTFeGmD7zAIrGtehT2T5F9Fx6u1z9rWB7PL7NlVx/ywCTn/sJ2Y6d9IQ6R3apLC/uTiFOMoZU6aq4BE55Q7TKu6h9zvutCVp670SArxs4Pv1QjXd0h4C/wS+vVeJLxfvMT9WKCq+AdXVXhoITsrQs6QvXgdyv/f8EBA7pPNmN5JQ+1vShcn4/38ubSNx4yL79YMtCORPblU+JjxzobTvgKUJm7QgGoJ9HjxJapPMulU6xaEQVYnK83DBW7yh6ry4KI8eZCvMmmyKdspeBDxM6Qhxr884+mE1bLyCpmOXzb2RV+u4FddMsIu/SGXy2oBwPoL4nIcgrju3sKYW8paY1Vck5rh5fBnUiiRyAkNTwORJDzwl2RgFnN5Afrz6qNBta01sO3Z4dybDphehPUapQk7T+lSDVCFcLWdRgathmZNj2fGdpdCbbJB5lfcw8E3usd4Fs071YhwosKfSi9H+GH9ze9xZRePa7mRTtWSu+AWRlq9+kFQS0NFmuKI5tHZ9nu+k2AIHEpruYGD9nGD5SkyajX6wI21tnKAOj4ZtuLRXGxEl/OupQYTGXA79/9E7cxYy1F70hvrM3sj62epJ/MhWh7sKyw3MZqtP7mRz+apcqyvY9V5tCKHcgO3+4lIAdpljWfFHc0klzQOwu2aLX+QgE7yEI05yK7QZZzJRauJUAHRHIWUJPhlf65+XJ6neL1QB/MiafEBRGN70jT6kCnWZYxkMk/g+a9ZjZGXV+N7IHe9fL+lUgSbrvc5sMeFQbBNOs2K4RM39n+ok5KFHr+vIH9pxou4vlDtozqZ60KAENhCqSdaIYHryDqM635VmyrzwVOUkHZMP5TqvrVJu71G5KyztD90dyN/2/JqhVlQ8z1TQrkH+PVJ0VgBxY7LVaMFkrSna5aMhBVGjWEBc/bHgm8bRyFtMQifx44OirMcQU/FvbKHlN2mOKFat0cZup8ej/m+aPFPxkCbLElS2EP3os1p1ZEgLNqQvSyE0AOPPOYg62NA3mNq/ZgtJLLxv1KMiXdmQ5V6dltxPPmEBSmvlFZ1OYRounhjQc2iMTGEjgXij0ezfIqZlLCdUTzA9AInR/i89w/TRkz5k3on1pONM+mtQoz+HQa+wfn3VV6VCT4rqVQgr+ugG7O//me2C1bf9vq4fG+H38r0d+H2UsQX3OlYU6S0Oswo6tpXnos8LcIJVYs5q4SzYFO67DXAtXuDbF0af/KhC7J8eVqwuD3DUSfaqOmdL5jppYyc0FiwnGF3lj8ZnazWYOl4n7qHpYZBuVN/ZjdWYZxG1SWYlquiFUnex1FYtkQaa4VDFSZMA8cSjgG6yGCnak75zV56jmhCJHBWkxaXyrmWzubqtLisdtlIhsQKpwvwlbz0+u/TL0jGu2tQQqB8+9gB7IlHy7ePZ1w2g0aov7bmb6WsafQh/4HPEttr1Aoz3PWY6RRZ4R6xmMrbOac7+szQponQuZ2E4CQOCuf+5yI6afbr8dq28mxZYabwoW+q2jt4a6vFCdG3b9Cglee1mv4ZRAPxmdH35wcRn/whpEhBdZtHbMsbirMAYM7fAs9yeFfjUGGeHHri85w2zwwU2qOgpxCM1olRkrEHZx6lRQDOKB966yYzeaMrB4EQwdejkv6vNey+LXIIwTweqKemDQp</value>
+			<value>${{ values.aws_sessionToken }}</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>Password</type>
-			<isOverride>true</isOverride>
+			<isOverride>false</isOverride>
 			<useLookupValue>false</useLookupValue>
-			<lookupValue>%%/SharedResources/AWS/sessionToken%%</lookupValue>
+			<lookupValue>${{ values.aws_sessionToken }}</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//sharedLibrary///SharedResources/AWS/region</name>
-			<value>us-west-2</value>
+			<value>${{ values.aws_region }}</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
-			<isOverride>true</isOverride>
+			<isOverride>false</isOverride>
 			<useLookupValue>false</useLookupValue>
-			<lookupValue>%%/SharedResources/AWS/region%%</lookupValue>
+			<lookupValue>${{ values.aws_region }}</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//sharedLibrary///SharedResources/AWS/secretKey</name>
-			<value>#!WHeSwY2jqP+XybeJukdlehRqwlqNzEWFl1xIs6NBKdrntpTYyjYz7phH1HLLRQJLQIKzqQyeEfjJVEc7+ezNiBJi36SmL6JZ3pfBBvcOXu+CTSJI9IvCFh5Is66ro47C</value>
+			<value>${{ values.aws_accessSecretKey }}</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>Password</type>
-			<isOverride>true</isOverride>
+			<isOverride>false</isOverride>
 			<useLookupValue>false</useLookupValue>
-			<lookupValue>%%/SharedResources/AWS/secretKey%%</lookupValue>
+			<lookupValue>${{ values.aws_accessSecretKey }}</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//sharedLibrary///SharedResources/HTTP/port</name>
@@ -173,9 +173,9 @@
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>Integer</type>
-			<isOverride>true</isOverride>
+			<isOverride>false</isOverride>
 			<useLookupValue>false</useLookupValue>
-			<lookupValue>%%/SharedResources/HTTP/port%%</lookupValue>
+			<lookupValue>18080</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//sharedLibrary///SharedResources/HTTP/host</name>
@@ -189,31 +189,33 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//sharedLibrary///EnvOperations/AWS-S3/fileKey</name>
-			<value>TN-DECK-SAMPLE.key</value>
+			<value${{ values.aws_fileKey }}</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
-			<isOverride>true</isOverride>
+			<isOverride>false</isOverride>
 			<useLookupValue>false</useLookupValue>
-			<lookupValue>%%/EnvOperations/AWS-S3/fileKey%%</lookupValue>
+			<lookupValue>${{ values.aws_fileKey }}</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//sharedLibrary///EnvOperations/AWS-S3/bucketName</name>
-			<value>odido-bwce-demo-bucket</value>
+			<value>${{ values.aws_bucketName }}</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>false</isOverride>
 			<useLookupValue>false</useLookupValue>
+			<lookupValue>${{ values.aws_bucketName }}</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//sharedLibrary///EnvOperations/AWS-S3/destinationFileLocation</name>
-			<value>/Users/mpandav/tmp/odido/s3/</value>
+			<value>#//sharedLibrary///EnvOperations/AWS-S3/destinationFileLocation#</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>false</isOverride>
 			<useLookupValue>false</useLookupValue>
+			<lookupValue>#//sharedLibrary///EnvOperations/AWS-S3/destinationFileLocation#</lookupValue>
 		</globalVariable>
 	</globalVariables>
 </repository>
