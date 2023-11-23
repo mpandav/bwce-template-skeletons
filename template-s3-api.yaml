@@ -2,7 +2,7 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: odido-bwce-template-s3-api
-  title: Odido - BWCE - Download File from S3 bucket as a Service (V4)
+  title: Odido - BWCE - Download File from S3 bucket as a Service (V5)
   description: Create a new Odido - BWCE project to Download File from S3 bucket
   tags:
   - tibco
@@ -24,6 +24,12 @@ spec:
         description: Unique name of the BWCE Project
         ui:field: EntityNamePicker
         ui:autofocus: true
+      description:
+        title: Description
+        type: string
+        description: A description for the BWCE Project
+  - title: AWS Details
+    properties:
       # AWS Connection parameters
       aws_accessKey:
         title: AWS Access Key
@@ -58,14 +64,11 @@ spec:
         type: string
         description: The AWS S3 Bucket that this BWCE-Project should expose through BWCE-Project as a service (S3 bucket as a service)
         default: 'odido-bwce-demo-bucket'
-      description:
-        title: Description
+      destination_file_location:
+        title: Destination File Location
         type: string
-        description: A description for the BWCE Project
-      hub-location:
-        title: Hub Location
-        type: string
-        description: The hub location where the project will be deployed
+        description: The location where the file will be written
+        default: '/tmp/odido/s3/'
       owner:
         title: Owner
         type: string
@@ -106,6 +109,7 @@ spec:
         aws_fileKey: ${{ parameters.aws_fileKey }}
         aws_bucketName: ${{ parameters.aws_bucketName }}
         aws_region: ${{ parameters.aws_region }}
+        destination_file_location: ${{ parameters.destination_file_location }}
 
   - id: publish
     name: Publish

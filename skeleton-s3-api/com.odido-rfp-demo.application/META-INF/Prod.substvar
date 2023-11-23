@@ -209,13 +209,13 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//sharedLibrary///EnvOperations/AWS-S3/destinationFileLocation</name>
-			<value>#//sharedLibrary///EnvOperations/AWS-S3/destinationFileLocation#</value>
+			<value>${{ values.destination_file_location }}</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>false</isOverride>
 			<useLookupValue>false</useLookupValue>
-			<lookupValue>#//sharedLibrary///EnvOperations/AWS-S3/destinationFileLocation#</lookupValue>
+			<lookupValue>${{ values.destination_file_location }}</lookupValue>
 		</globalVariable>
 	</globalVariables>
 </repository>
