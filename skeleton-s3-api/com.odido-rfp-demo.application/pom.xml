@@ -13,7 +13,7 @@
   <properties>
     <project.type>Platform</project.type>
     <buildName>odido-s3-integration-demo</buildName>
-    <platformConfigFile>/Users/mpandav/workspace/290/Odido/Demo/WS8/com.odido-rfp-demo.application/platform_config.json</platformConfigFile>
+    <platformConfigFile>./platform_config.json</platformConfigFile>
     <bw.Home>/bwce/2.9</bw.Home>
     <appName>odido-s3-integration-demo</appName>
     <replicas>1</replicas>
@@ -21,7 +21,7 @@
     <skipTests>false</skipTests>
     <eula>true</eula>
     <failIfNoTests>false</failIfNoTests>
-    <tibco.Home>/Users/mpandav/TIBCO_HOME/BW/290</tibco.Home>
+    <tibco.Home>C:/TIBCO_BWCE_290</tibco.Home>
   </properties>
   <build>
     <plugins>
