@@ -13,7 +13,7 @@
   <properties>
     <project.type>Platform</project.type>
     <buildName>odido-s3-integration-demo</buildName>
-    <platformConfigFile>./platform_config.json</platformConfigFile>
+    <platformConfigFile>./../com.odido-rfp-demo.application/platform_config.json</platformConfigFile>
     <bw.Home>/bwce/2.9</bw.Home>
     <appName>odido-s3-integration-demo</appName>
     <replicas>1</replicas>
