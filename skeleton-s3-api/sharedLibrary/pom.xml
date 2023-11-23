@@ -4,9 +4,9 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.tibco.bw</groupId>
-    <artifactId>com.odido-rfp-demp.application.parent</artifactId>
+    <artifactId>com.odido-rfp-demo.application.parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <relativePath>../com.odido-rfp-demp.application.parent</relativePath>
+    <relativePath>../com.odido-rfp-demo.application.parent</relativePath>
   </parent>
   <artifactId>sharedLibrary</artifactId>
   <packaging>bwmodule</packaging>

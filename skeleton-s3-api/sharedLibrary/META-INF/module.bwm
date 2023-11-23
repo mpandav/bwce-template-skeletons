@@ -11,6 +11,8 @@
   <sca:property xmi:id="_hI02YIPPEe6IlNDnN1QGtA" name="/SharedResources/AWS/accessKey" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_hNSfoIPPEe6IlNDnN1QGtA" name="/SharedResources/AWS/secretKey" type="property:password" scaext:simpleValue="#!DMwRb0Y5D/ewp/FH/3LfBQ==" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_hRaKoIPPEe6IlNDnN1QGtA" name="/SharedResources/AWS/sessionToken" type="property:password" scaext:simpleValue="#!Y1v0uwRASBh2PPvUlvp5WQ==" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_aiEaQIPOEe6IlNDnN1QGtA" name="/SharedResources/HTTP/host" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_Kibb0IPQEe6IlNDnN1QGtA" name="/SharedResources/HTTP/port" type="XMLSchema:int" scaext:simpleValue="0" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_b_ihAIPSEe6IlNDnN1QGtA" name="/EnvOperations/AWS-S3/fileKey" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_MJdBgIeVEe6EvJdoKUCh3A" name="/EnvOperations/AWS-S3/bucketName" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_EKCecIeWEe6EvJdoKUCh3A" name="/EnvOperations/AWS-S3/destinationFileLocation" type="XMLSchema:string" publicAccess="true" scalable="true"/>

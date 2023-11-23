@@ -3,13 +3,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.tibco.bw</groupId>
-  <artifactId>com.odido-rfp-demp.application.parent</artifactId>
+  <artifactId>com.odido-rfp-demo.application.parent</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
     <module>../sharedLibrary</module>
-    <module>../com.odido-rfp-demp</module>
-    <module>../com.odido-rfp-demp.application</module>
+    <module>../com.odido-rfp-demo</module>
+    <module>../com.odido-rfp-demo.application</module>
   </modules>
   <build>
     <plugins>

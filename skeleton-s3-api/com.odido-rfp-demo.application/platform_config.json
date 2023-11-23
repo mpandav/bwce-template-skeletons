@@ -3,11 +3,6 @@
     "platformConfig":[
         {
             "appProperties":[
-                {
-                    "name":"__SlAsH____SlAsH__sharedLibrary__SlAsH____SlAsH____SlAsH__EnvOperations__SlAsH__AWS-S3__SlAsH__destinationFileLocation",
-                    "value":"/tmp/odido/s3/",
-                    "type":"string"
-                }
             ]
         },
         {
@@ -39,10 +34,6 @@
                 {
                     "name":"bwplugin/bw.amazons3",
                     "version":"6.6.0"
-                },
-                {
-                    "name":"bwplugin/bw.sftp",
-                    "version":"6.1.4"
                 }
             ]
         },

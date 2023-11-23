@@ -4,24 +4,24 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.tibco.bw</groupId>
-    <artifactId>com.odido-rfp-demp.application.parent</artifactId>
+    <artifactId>com.odido-rfp-demo.application.parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <relativePath>../com.odido-rfp-demp.application.parent</relativePath>
+    <relativePath>../com.odido-rfp-demo.application.parent</relativePath>
   </parent>
-  <artifactId>com.odido-rfp-demp.application</artifactId>
+  <artifactId>com.odido-rfp-demo.application</artifactId>
   <packaging>bwear</packaging>
   <properties>
     <project.type>Platform</project.type>
-    <buildName>odido_build</buildName>
-    <platformConfigFile>C:/BWCE_Projects/bwce-template-skeletons/skeleton-s3-api/com.odido-rfp-demp.application/platform_config.json</platformConfigFile>
+    <buildName>odido-s3-integration-demo</buildName>
+    <platformConfigFile>/Users/mpandav/workspace/290/Odido/Demo/WS8/com.odido-rfp-demo.application/platform_config.json</platformConfigFile>
     <bw.Home>/bwce/2.9</bw.Home>
-    <appName>odido_app</appName>
+    <appName>odido-s3-integration-demo</appName>
     <replicas>1</replicas>
-    <profile>default.substvar</profile>
+    <profile>Dev.substvar</profile>
     <skipTests>false</skipTests>
     <eula>true</eula>
     <failIfNoTests>false</failIfNoTests>
-    <tibco.Home>C:/TIBCO_BWCE_290</tibco.Home>
+    <tibco.Home>/Users/mpandav/TIBCO_HOME/BW/290</tibco.Home>
   </properties>
   <build>
     <plugins>

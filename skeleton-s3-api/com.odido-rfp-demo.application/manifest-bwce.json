@@ -1,5 +1,5 @@
 {
-	"name" : "com.odido-rfp-demp.application",
+	"name" : "com.odido-rfp-demo.application",
 	"version" : "1.0",
 	"type" : "bwce",
 	"defaultProfile" : "default.substvar",
@@ -7,55 +7,34 @@
 		{
 			"profile" : "Prod.substvar",
 			"properties" : [
-				{
-					"name" : "__SlAsH____SlAsH__sharedLibrary__SlAsH____SlAsH____SlAsH__EnvOperations__SlAsH__AWS-S3__SlAsH__destinationFileLocation",
-					"datatype" : "string",
-					"default" : "/tmp/odido/s3/"
-				}
 			]
 		},
 		{
 			"profile" : "default.substvar",
 			"properties" : [
-				{
-					"name" : "__SlAsH____SlAsH__sharedLibrary__SlAsH____SlAsH____SlAsH__EnvOperations__SlAsH__AWS-S3__SlAsH__destinationFileLocation",
-					"datatype" : "string",
-					"default" : "/tmp/odido/s3/"
-				}
 			]
 		},
 		{
 			"profile" : "Test.substvar",
 			"properties" : [
-				{
-					"name" : "__SlAsH____SlAsH__sharedLibrary__SlAsH____SlAsH____SlAsH__EnvOperations__SlAsH__AWS-S3__SlAsH__destinationFileLocation",
-					"datatype" : "string",
-					"default" : "/tmp/odido/s3/"
-				}
 			]
 		},
 		{
 			"profile" : "Dev.substvar",
 			"properties" : [
-				{
-					"name" : "__SlAsH____SlAsH__sharedLibrary__SlAsH____SlAsH____SlAsH__EnvOperations__SlAsH__AWS-S3__SlAsH__destinationFileLocation",
-					"datatype" : "string",
-					"default" : "/tmp/odido/s3/"
-				}
 			]
 		}
 	],
 	"volumesFrom" : [
-		"bwplugin/bw.amazons3;version=6.6.0",
-		"bwplugin/bw.sftp;version=6.1.4"
+		"bwplugin/bw.amazons3;version=6.6.0"
 	],
 	"endpoints" : [
 		{
 			"name" : "Files-FileName",
 			"protocol" : "http",
-			"port" : "null",
+			"port" : 8080,
 			"spec" : {
-				"name" : "com.odido-rfp-demp.application",
+				"name" : "com.odido-rfp-demo.application",
 				"version" : "v1"
 			},
 			"swagger" : {
@@ -122,9 +101,9 @@
 		{
 			"name" : "GetFileAttachmentPortType",
 			"protocol" : "http",
-			"port" : "null",
+			"port" : 8080,
 			"spec" : {
-				"name" : "com.odido-rfp-demp.application",
+				"name" : "com.odido-rfp-demo.application",
 				"version" : "v1"
 			}
 		},
