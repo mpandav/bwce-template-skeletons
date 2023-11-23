@@ -189,7 +189,7 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//sharedLibrary///EnvOperations/AWS-S3/fileKey</name>
-			<value${{ values.aws_fileKey }}</value>
+			<value>${{ values.aws_fileKey }}</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
