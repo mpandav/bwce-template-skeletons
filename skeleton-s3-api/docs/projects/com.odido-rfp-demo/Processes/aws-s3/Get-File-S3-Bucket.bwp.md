@@ -1,6 +1,8 @@
 # Get-File-S3-Bucket {% raw %}{#{% endraw %}ProcessMain .concept}
 
-Section contains description of Process " Get-File-S3-Bucket.bwp " .
+## Diagram: {% raw %}{#{% endraw %}Diagram}
+
+![](Get-File-S3-Bucket.bwp.png)
 
 **Parent topic:**[Processes](../../../../projects/com.odido-rfp-demo/common/process.md)
 
@@ -8,7 +10,7 @@ Section contains description of Process " Get-File-S3-Bucket.bwp " .
 
 |Folder|Description|
 |------|-----------|
-| |No description|
+| |A Process that get's a file from an S3 Bucket|
 
 ## Process description: {% raw %}{#{% endraw %}ProcessDescription}
 
@@ -18,9 +20,6 @@ Section contains description of Process " Get-File-S3-Bucket.bwp " .
 
 Full process path: aws-s3.Get-File-S3-Bucket
 
-## Diagram: {% raw %}{#{% endraw %}Diagram}
-
-![](Get-File-S3-Bucket.bwp.png)
 
 ## Process starter activity: {% raw %}{#{% endraw %}Starter}
 
