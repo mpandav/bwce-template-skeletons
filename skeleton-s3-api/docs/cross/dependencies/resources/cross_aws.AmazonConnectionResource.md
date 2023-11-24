@@ -1,4 +1,4 @@
-# AmazonConnectionResource.amazonconnectionResource {#AmazonConnectionResource.amazonconnectionResource .concept}
+# AmazonConnectionResource.amazonconnectionResource {% raw %}{#{% endraw %}AmazonConnectionResource.amazonconnectionResource .concept}
 
 Chapter contains AmazonConnectionResource.amazonconnectionResource crossreferences documentation.
 

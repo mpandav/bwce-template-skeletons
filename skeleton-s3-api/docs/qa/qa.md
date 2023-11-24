@@ -1,4 +1,4 @@
-# Quality Assurance documentation {#QA_summary .concept}
+# Quality Assurance documentation {% raw %}{#{% endraw %}QA_summary .concept}
 
 Chapter contains Quality Assurance documentation. It checks whether defined rules were followed in chosen projects and shows all occurences of violations of these rules.
 

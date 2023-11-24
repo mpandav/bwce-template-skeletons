@@ -1,4 +1,4 @@
-# WARNING - Missing XSD Annotation {#WARNING_-_Missing_XSD_Annotation .concept}
+# WARNING - Missing XSD Annotation {% raw %}{#{% endraw %}WARNING_-_Missing_XSD_Annotation .concept}
 
 Chapter contains projects and their violations of rule 'Missing XSD Annotation' - 'Check for annotation in XML schema.'.
 

@@ -1,4 +1,4 @@
-# INFO - Value Ends With {#INFO_-_Value_Ends_With .concept}
+# INFO - Value Ends With {% raw %}{#{% endraw %}INFO_-_Value_Ends_With .concept}
 
 Chapter contains projects and their violations of rule 'Value Ends With' - 'Check for Global Variables Values'.
 

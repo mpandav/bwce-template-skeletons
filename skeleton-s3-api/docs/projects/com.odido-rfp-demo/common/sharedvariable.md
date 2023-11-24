@@ -1,4 +1,4 @@
-# Sharedvariables {#com.odido-rfp-demo_services .concept}
+# Sharedvariables {% raw %}{#{% endraw %}com.odido-rfp-demo_services .concept}
 
 Chapter contains description of BusinessWorks Shared Variables from project com.odido-rfp-demo.
 

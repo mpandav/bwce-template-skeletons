@@ -1,4 +1,4 @@
-# com.odido-rfp-demo.application {#com.odido-rfp-demo.application_summary .concept}
+# com.odido-rfp-demo.application {% raw %}{#{% endraw %}com.odido-rfp-demo.application_summary .concept}
 
 Chapter contains com.odido-rfp-demo.application's project documentation.
 

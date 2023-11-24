@@ -1,4 +1,4 @@
-# GetFileServiceAbstractWSDL {#Wsdl .concept}
+# GetFileServiceAbstractWSDL {% raw %}{#{% endraw %}Wsdl .concept}
 
 Section contains description of WSDL Schema “[GetFileServiceAbstractWSDL.wsdl](GetFileServiceAbstractWSDL.wsdl)”
 
@@ -10,19 +10,19 @@ Documentation:
 
 **Parent topic:**[WSDLs](../../../projects/com.odido-rfp-demo/common/wsdl.md)
 
-## Folder description: {#FolderDescription}
+## Folder description: {% raw %}{#{% endraw %}FolderDescription}
 
 |Folder|Description|
 |------|-----------|
 | |No description|
 
-## Diagram: {#Diagram}
+## Diagram: {% raw %}{#{% endraw %}Diagram}
 
 Diagram [GetFileServiceAbstractWSDL.wsdl.svg](C_/MakeDoc/cfg/storage/default/1700828808628/dita/projects/com.odido-rfp-demo/Service_Descriptors/GetFileServiceAbstractWSDL.wsdl.svg)
 
 Diagram of GetFileServiceAbstractWSDL.wsdl.
 
-## Namespaces: {#Namespaces}
+## Namespaces: {% raw %}{#{% endraw %}Namespaces}
 
 -   xmlns: soap - http://schemas.xmlsoap.org/wsdl/soap/
 -   xmlns: tns - http://www.tibco.com/GetFileServiceAbstractWSDL/
@@ -30,26 +30,26 @@ Diagram of GetFileServiceAbstractWSDL.wsdl.
 -   xmlns: xml - http://www.w3.org/XML/1998/namespace
 -   xmlns: xsd - http://www.w3.org/2001/XMLSchema
 
-## Types: {#Types}
+## Types: {% raw %}{#{% endraw %}Types}
 
-### Namespace: http://www.tibco.com/GetFileServiceAbstractWSDL/ {#http___www.tibco.com_GetFileServiceAbstractWSDL_}
+### Namespace: http://www.tibco.com/GetFileServiceAbstractWSDL/ {% raw %}{#{% endraw %}http___www.tibco.com_GetFileServiceAbstractWSDL_}
 
 -   schema
     -   tns : GetFileRequest
     -   tns : GetFileResponse
 
-## Port configuration: {#PortConfig}
+## Port configuration: {% raw %}{#{% endraw %}PortConfig}
 
 *Empty*
 
-## Operations: {#Operations}
+## Operations: {% raw %}{#{% endraw %}Operations}
 
 -   **Name:**GetFile
     -   **Parameters:**
         -   **Input:**[tns:GetFileRequest](#Messages)
         -   **Output:**[tns:GetFileResponse](#Messages)
 
-## Messages: {#Messages}
+## Messages: {% raw %}{#{% endraw %}Messages}
 
 -   **Name:**GetFileRequest
     -   **Part Element:**tns:GetFileRequest

@@ -1,4 +1,4 @@
-# WARNING - Incorrect Schema - missing header {#WARNING_-_Incorrect_Schema_-_missing_header .concept}
+# WARNING - Incorrect Schema - missing header {% raw %}{#{% endraw %}WARNING_-_Incorrect_Schema_-_missing_header .concept}
 
 Chapter contains projects and their violations of rule 'Incorrect Schema - missing header' - 'Check for mandatory header in XSD schema'.
 

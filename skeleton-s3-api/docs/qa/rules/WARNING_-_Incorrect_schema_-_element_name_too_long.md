@@ -1,4 +1,4 @@
-# WARNING - Incorrect schema - element name too long {#WARNING_-_Incorrect_schema_-_element_name_too_long .concept}
+# WARNING - Incorrect schema - element name too long {% raw %}{#{% endraw %}WARNING_-_Incorrect_schema_-_element_name_too_long .concept}
 
 Chapter contains projects and their violations of rule 'Incorrect schema - element name too long' - 'Check for the length of element'.
 

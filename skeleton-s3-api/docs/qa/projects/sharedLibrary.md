@@ -1,4 +1,4 @@
-# sharedLibrary {#sharedLibrary .concept}
+# sharedLibrary {% raw %}{#{% endraw %}sharedLibrary .concept}
 
 Chapter contains items of 'sharedLibrary' project and their violations of defined rules.
 

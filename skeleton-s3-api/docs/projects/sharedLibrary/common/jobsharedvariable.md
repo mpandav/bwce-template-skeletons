@@ -1,4 +1,4 @@
-# Job Shared Variables {#sharedLibrary_services .concept}
+# Job Shared Variables {% raw %}{#{% endraw %}sharedLibrary_services .concept}
 
 Chapter contains description of BusinessWorks Job Shared Variables from project sharedLibrary.
 

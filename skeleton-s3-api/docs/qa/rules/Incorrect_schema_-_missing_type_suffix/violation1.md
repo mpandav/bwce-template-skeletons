@@ -1,4 +1,4 @@
-# com.odido-rfp-demo.application\_1.0.0\_ear {#violation1 .concept}
+# com.odido-rfp-demo.application\_1.0.0\_ear {% raw %}{#{% endraw %}violation1 .concept}
 
 Description of rule: Element name is too long
 
@@ -6,7 +6,7 @@ Violation appeared in following files:
 
 **Parent topic:**[WARNING - Incorrect schema - missing type suffix](../../../qa/rules/WARNING_-_Incorrect_schema_-_missing_type_suffix.md)
 
-## ComplexType attribute {#ComplexType_attribute}
+## ComplexType attribute {% raw %}{#{% endraw %}ComplexType_attribute}
 
 -   [/Schemas/RESTSchema.xsd](../../../projects/com.odido-rfp-demo.application_1.0.0_ear/Schemas/RESTSchema.xsd.md) - complexType client4XXErrorType is without suffix 'Type'
 -   [/Schemas/RESTSchema.xsd](../../../projects/com.odido-rfp-demo.application_1.0.0_ear/Schemas/RESTSchema.xsd.md) - complexType dynamicConfigurationsType is without suffix 'Type'

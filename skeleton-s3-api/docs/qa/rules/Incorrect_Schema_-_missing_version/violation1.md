@@ -1,4 +1,4 @@
-# com.odido-rfp-demo.application\_1.0.0\_ear {#violation1 .concept}
+# com.odido-rfp-demo.application\_1.0.0\_ear {% raw %}{#{% endraw %}violation1 .concept}
 
 Description of rule: missing version of XSD schema
 
@@ -6,7 +6,7 @@ Violation appeared in following files:
 
 **Parent topic:**[WARNING - Incorrect Schema - missing version](../../../qa/rules/WARNING_-_Incorrect_Schema_-_missing_version.md)
 
-## XSD Schema missing version {#XSD_Schema_missing_version}
+## XSD Schema missing version {% raw %}{#{% endraw %}XSD_Schema_missing_version}
 
 -   [/Schemas/DataFormatSchema.xsd](../../../projects/com.odido-rfp-demo.application_1.0.0_ear/Schemas/DataFormatSchema.xsd.md) - missing version of XSD schema
 -   [/Schemas/FileSchema.xsd](../../../projects/com.odido-rfp-demo.application_1.0.0_ear/Schemas/FileSchema.xsd.md) - missing version of XSD schema

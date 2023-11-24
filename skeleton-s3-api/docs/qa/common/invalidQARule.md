@@ -1,14 +1,14 @@
-# QA Rules Statistics Summary {#dummy .concept}
+# QA Rules Statistics Summary {% raw %}{#{% endraw %}dummy .concept}
 
 Section contains summary of QualityAssurance rules statistics.
 
 **Parent topic:**[Quality Assurance documentation](../../qa/qa.md)
 
-## Invalid QA Rules {#Rules}
+## Invalid QA Rules {% raw %}{#{% endraw %}Rules}
 
 -   1. Rules/ERROR-Hardcoded\_destinations-JMS\_activities.rule - Unknown type: XpathRuleCheckerComplex
 
-## QA Rules Statistics {#RulesStats}
+## QA Rules Statistics {% raw %}{#{% endraw %}RulesStats}
 
 |Rule location|Rule fired|Rule checked|
 |-------------|----------|------------|

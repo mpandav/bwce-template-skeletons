@@ -1,4 +1,4 @@
-# INFO - Value Contains {#INFO_-_Value_Contains .concept}
+# INFO - Value Contains {% raw %}{#{% endraw %}INFO_-_Value_Contains .concept}
 
 Chapter contains projects and their violations of rule 'Value Contains' - 'Check for Global Variables Values'.
 

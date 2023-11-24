@@ -1,17 +1,17 @@
-# Resource {#HTTPConnectorsMain .concept}
+# Resource {% raw %}{#{% endraw %}HTTPConnectorsMain .concept}
 
 Section contains description od HTTP Connectors " Resource.httpConnResource " .
 
 **Parent topic:**[HTTP Connectors](../../../../projects/com.odido-rfp-demo.application_1.0.0_ear/common/httpConnector.md)
 
-## Basic Configuration {#HTTPConnectorBasic}
+## Basic Configuration {% raw %}{#{% endraw %}HTTPConnectorBasic}
 
 -   Host: [BW.HOST.NAME](#Prod:%20localhost,%20default:%20localhost,%20Dev:%20localhost,%20Test:%20localhost,)
 -   Port: [BW.CLOUD.PORT](#Prod:%208080,%20default:%208080,%20Dev:%208080,%20Test:%208080,)
 -   Accept Queue Size: -1
 -   Acceptor Threads: 1
 
-## Advanced Configuration {#HTTPConnectorAdvanced}
+## Advanced Configuration {% raw %}{#{% endraw %}HTTPConnectorAdvanced}
 
 -   Head Buffer Size \(B\): 4096
 -   Request Buffer Size \(B\): 8192

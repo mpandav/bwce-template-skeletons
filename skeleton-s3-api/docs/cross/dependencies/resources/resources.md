@@ -1,4 +1,4 @@
-# Resources {#Resources_Cross-reference_summary .concept}
+# Resources {% raw %}{#{% endraw %}Resources_Cross-reference_summary .concept}
 
 Chapter contains Resources Cross-reference documentation.
 

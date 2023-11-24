@@ -1,4 +1,4 @@
-# openapi-file-download {#Xsd .concept}
+# openapi-file-download {% raw %}{#{% endraw %}Xsd .concept}
 
 Section contains description of XSD Schema openapi-file-download.xsd“[openapi-file-download.xsd](openapi-file-download.xsd)”
 
@@ -6,39 +6,39 @@ Section contains description of XSD Schema “openapi-file-download.xsd”
 
 **Parent topic:**[XSD Schemas](../../../projects/com.odido-rfp-demo.application_1.0.0_ear/common/xsd.md)
 
-## Folder description: {#FolderDescription}
+## Folder description: {% raw %}{#{% endraw %}FolderDescription}
 
 |Folder|Description|
 |------|-----------|
 | |No description|
 
-## Diagram: {#Diagram}
+## Diagram: {% raw %}{#{% endraw %}Diagram}
 
 ![Diagram
               openapi-file-download.xsd](openapi-file-download.xsd.png)
 
-## Attributes {#Attributes}
+## Attributes {% raw %}{#{% endraw %}Attributes}
 
 -   *elementFormDefault :**qualified*
 -   *targetNamespace :**/T1700143829778Converted/JsonSchema*
 
-## Overview {#Overview}
+## Overview {% raw %}{#{% endraw %}Overview}
 
-### Elements {#Elements}
+### Elements {% raw %}{#{% endraw %}Elements}
 
 -   [File](#element_File)
 
-### Simple Types {#SimpleTypes}
+### Simple Types {% raw %}{#{% endraw %}SimpleTypes}
 
 -   [File](#type_File)
 
-## Detail {#Detail}
+## Detail {% raw %}{#{% endraw %}Detail}
 
-### element File {#element_File}
+### element File {% raw %}{#{% endraw %}element_File}
 
 -   *type :**tns:File*
 
-### simpleType File {#type_File}
+### simpleType File {% raw %}{#{% endraw %}type_File}
 
 -   restriction*base**xs:base64Binary*
 

@@ -1,4 +1,4 @@
-# RESTSchema {#Xsd .concept}
+# RESTSchema {% raw %}{#{% endraw %}Xsd .concept}
 
 Section contains description of XSD Schema RESTSchema.xsd“[RESTSchema.xsd](RESTSchema.xsd)”
 
@@ -6,24 +6,24 @@ Section contains description of XSD Schema “RESTSchema.xsd”
 
 **Parent topic:**[XSD Schemas](../../../projects/com.odido-rfp-demo/common/xsd.md)
 
-## Folder description: {#FolderDescription}
+## Folder description: {% raw %}{#{% endraw %}FolderDescription}
 
 |Folder|Description|
 |------|-----------|
 | |No description|
 
-## Diagram: {#Diagram}
+## Diagram: {% raw %}{#{% endraw %}Diagram}
 
 ![Diagram
               RESTSchema.xsd](RESTSchema.xsd.png)
 
-## Attributes {#Attributes}
+## Attributes {% raw %}{#{% endraw %}Attributes}
 
 -   *targetNamespace :**http://tns.tibco.com/bw/REST*
 
-## Overview {#Overview}
+## Overview {% raw %}{#{% endraw %}Overview}
 
-### Elements {#Elements}
+### Elements {% raw %}{#{% endraw %}Elements}
 
 -   [messageBody](#element_messageBody)
 -   [httpHeaders](#element_httpHeaders)
@@ -35,7 +35,7 @@ Section contains description of XSD Schema “RESTSchema.xsd”
 -   [server5XXError](#element_server5XXError)
 -   [jwtClaims](#element_jwtClaims)
 
-### Complex Types {#ComplexTypes}
+### Complex Types {% raw %}{#{% endraw %}ComplexTypes}
 
 -   [httpTransportHeaders](#type_httpTransportHeaders)
 -   [httpTransportResponseHeaders](#type_httpTransportResponseHeaders)
@@ -49,21 +49,21 @@ Section contains description of XSD Schema “RESTSchema.xsd”
 -   [jwtClaimElementType](#type_jwtClaimElementType)
 -   [jwtClaimsType](#type_jwtClaimsType)
 
-### Simple Types {#SimpleTypes}
+### Simple Types {% raw %}{#{% endraw %}SimpleTypes}
 
 -   [tmessageBody](#type_tmessageBody)
 
-## Detail {#Detail}
+## Detail {% raw %}{#{% endraw %}Detail}
 
-### element messageBody {#element_messageBody}
+### element messageBody {% raw %}{#{% endraw %}element_messageBody}
 
 -   *type :**tns:tmessageBody*
 
-### simpleType tmessageBody {#type_tmessageBody}
+### simpleType tmessageBody {% raw %}{#{% endraw %}type_tmessageBody}
 
 -   restriction*base**string*
 
-### complexType httpTransportHeaders {#type_httpTransportHeaders}
+### complexType httpTransportHeaders {% raw %}{#{% endraw %}type_httpTransportHeaders}
 
 -   element Accept*form**unqualified* , *minOccurs**0* , *type**string*
 
@@ -85,7 +85,7 @@ Section contains description of XSD Schema “RESTSchema.xsd”
 
 -   element DynamicHeaders*maxOccurs**1* , *minOccurs**0* , *type**tns:dynamicHeadersType*
 
-### complexType httpTransportResponseHeaders {#type_httpTransportResponseHeaders}
+### complexType httpTransportResponseHeaders {% raw %}{#{% endraw %}type_httpTransportResponseHeaders}
 
 -   element Content-Length*form**unqualified* , *minOccurs**0* , *type**string*
 
@@ -103,7 +103,7 @@ Section contains description of XSD Schema “RESTSchema.xsd”
 
 -   element DynamicHeaders*maxOccurs**1* , *minOccurs**0* , *type**tns:dynamicHeadersType*
 
-### complexType httpTransportFaultHeaders {#type_httpTransportFaultHeaders}
+### complexType httpTransportFaultHeaders {% raw %}{#{% endraw %}type_httpTransportFaultHeaders}
 
 -   element Content-Length*form**unqualified* , *minOccurs**0* , *type**string*
 
@@ -121,79 +121,79 @@ Section contains description of XSD Schema “RESTSchema.xsd”
 
 -   element DynamicHeaders*maxOccurs**1* , *minOccurs**0* , *type**tns:dynamicHeadersType*
 
-### complexType dynamicHeadersTypeDetails {#type_dynamicHeadersTypeDetails}
+### complexType dynamicHeadersTypeDetails {% raw %}{#{% endraw %}type_dynamicHeadersTypeDetails}
 
 -   element Name*form**unqualified* , *maxOccurs**1* , *minOccurs**1* , *type**string*
 
 -   element Value*form**unqualified* , *maxOccurs**1* , *minOccurs**1* , *type**string*
 
-### complexType dynamicHeadersType {#type_dynamicHeadersType}
+### complexType dynamicHeadersType {% raw %}{#{% endraw %}type_dynamicHeadersType}
 
 -   element Header*form**unqualified* , *maxOccurs**unbounded* , *minOccurs**0* , *type**tns:dynamicHeadersTypeDetails*
 
-### element httpHeaders {#element_httpHeaders}
+### element httpHeaders {% raw %}{#{% endraw %}element_httpHeaders}
 
 -   *type :**tns:httpTransportHeaders*
 
-### element httpResponseHeaders {#element_httpResponseHeaders}
+### element httpResponseHeaders {% raw %}{#{% endraw %}element_httpResponseHeaders}
 
 -   *type :**tns:httpTransportResponseHeaders*
 
-### element httpFaultHeaders {#element_httpFaultHeaders}
+### element httpFaultHeaders {% raw %}{#{% endraw %}element_httpFaultHeaders}
 
 -   *type :**tns:httpTransportFaultHeaders*
 
-### element dynamicConfigurations {#element_dynamicConfigurations}
+### element dynamicConfigurations {% raw %}{#{% endraw %}element_dynamicConfigurations}
 
 -   *type :**tns:dynamicConfigurationsType*
 
-### complexType dynamicConfigurationsType {#type_dynamicConfigurationsType}
+### complexType dynamicConfigurationsType {% raw %}{#{% endraw %}type_dynamicConfigurationsType}
 
 -   element URL*maxOccurs**1* , *minOccurs**0* , *type**string*
 
 -   element activityTimeout*maxOccurs**1* , *minOccurs**0* , *type**integer*
 
-### complexType statusLineType {#type_statusLineType}
+### complexType statusLineType {% raw %}{#{% endraw %}type_statusLineType}
 
 -   element statusCode*form**unqualified* , *maxOccurs**1* , *minOccurs**1* , *type**integer*
 
-### element statusLine {#element_statusLine}
+### element statusLine {% raw %}{#{% endraw %}element_statusLine}
 
 -   *type :**tns:statusLineType*
 
-### complexType client4XXErrorType {#type_client4XXErrorType}
+### complexType client4XXErrorType {% raw %}{#{% endraw %}type_client4XXErrorType}
 
 -   element statusCode*form**unqualified* , *maxOccurs**1* , *minOccurs**1* , *type**integer*
 
 -   element message*form**unqualified* , *maxOccurs**1* , *minOccurs**0* , *type**string*
 
-### element client4XXError {#element_client4XXError}
+### element client4XXError {% raw %}{#{% endraw %}element_client4XXError}
 
 -   *type :**tns:client4XXErrorType*
 
-### complexType server5XXErrorType {#type_server5XXErrorType}
+### complexType server5XXErrorType {% raw %}{#{% endraw %}type_server5XXErrorType}
 
 -   element statusCode*form**unqualified* , *maxOccurs**1* , *minOccurs**1* , *type**integer*
 
 -   element message*form**unqualified* , *maxOccurs**1* , *minOccurs**0* , *type**string*
 
-### element server5XXError {#element_server5XXError}
+### element server5XXError {% raw %}{#{% endraw %}element_server5XXError}
 
 -   *type :**tns:server5XXErrorType*
 
-### complexType jwtClaimElementType {#type_jwtClaimElementType}
+### complexType jwtClaimElementType {% raw %}{#{% endraw %}type_jwtClaimElementType}
 
 -   element Name*form**unqualified* , *maxOccurs**1* , *minOccurs**1* , *type**string*
 
 -   element Value*form**unqualified* , *maxOccurs**1* , *minOccurs**1* , *type**string*
 
-### complexType jwtClaimsType {#type_jwtClaimsType}
+### complexType jwtClaimsType {% raw %}{#{% endraw %}type_jwtClaimsType}
 
 -   element claim*maxOccurs**unbounded* , *minOccurs**0* , *type**tns:jwtClaimElementType*
 
 -   element payload*maxOccurs**1* , *minOccurs**0* , *type**string*
 
-### element jwtClaims {#element_jwtClaims}
+### element jwtClaims {% raw %}{#{% endraw %}element_jwtClaims}
 
 -   *type :**tns:jwtClaimsType*
 

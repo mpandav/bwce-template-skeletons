@@ -1,4 +1,4 @@
-# default.substvar {#Substvar .concept}
+# default.substvar {% raw %}{#{% endraw %}Substvar .concept}
 
 Section contains description of Global Variables " default.substvar "
 

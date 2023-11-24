@@ -1,4 +1,4 @@
-# WARNING - Incorrect Structure {#WARNING_-_Incorrect_Structure .concept}
+# WARNING - Incorrect Structure {% raw %}{#{% endraw %}WARNING_-_Incorrect_Structure .concept}
 
 Chapter contains projects and their violations of rule 'Incorrect Structure' - 'Check for correct structure of module properties'.
 

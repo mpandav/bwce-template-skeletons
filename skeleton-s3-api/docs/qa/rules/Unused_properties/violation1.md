@@ -1,4 +1,4 @@
-# sharedLibrary {#violation1 .concept}
+# sharedLibrary {% raw %}{#{% endraw %}violation1 .concept}
 
 Description of rule: Activity has hardcoded timeout property
 
@@ -6,7 +6,7 @@ Violation appeared in following files:
 
 **Parent topic:**[WARNING - Unused properties](../../../qa/rules/WARNING_-_Unused_properties.md)
 
-## module properties {#module_properties}
+## module properties {% raw %}{#{% endraw %}module_properties}
 
 -   */Processes/getFile.bwp* - /EnvOperations/AWS-S3/bucketName unused module property
 -   */Processes/getFile.bwp* - /EnvOperations/AWS-S3/destinationFileLocation unused module property
@@ -18,7 +18,7 @@ Violation appeared in following files:
 -   */Processes/getFile.bwp* - /SharedResources/HTTP/host unused module property
 -   */Processes/getFile.bwp* - /SharedResources/HTTP/port unused module property
 
-## process properties {#process_properties}
+## process properties {% raw %}{#{% endraw %}process_properties}
 
 -   */Processes/getFile.bwp* - fileKey unused process properties
 

@@ -1,4 +1,4 @@
-# XSD Schemas {#sharedLibrary_xsds .concept}
+# XSD Schemas {% raw %}{#{% endraw %}sharedLibrary_xsds .concept}
 
 Chapter contains description of XSD Schemas from project sharedLibrary.
 

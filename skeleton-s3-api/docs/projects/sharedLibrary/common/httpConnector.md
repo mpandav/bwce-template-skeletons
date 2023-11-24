@@ -1,4 +1,4 @@
-# HTTP Connectors {#sharedLibrary_httpconnectors .concept}
+# HTTP Connectors {% raw %}{#{% endraw %}sharedLibrary_httpconnectors .concept}
 
 Chapter contains description of BusinessWorks6 HTTP Connectors from project sharedLibrary.
 

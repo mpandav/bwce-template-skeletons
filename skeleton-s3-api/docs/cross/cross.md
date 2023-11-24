@@ -1,4 +1,4 @@
-# Cross-reference documentation {#Cross-reference_summary .concept}
+# Cross-reference documentation {% raw %}{#{% endraw %}Cross-reference_summary .concept}
 
 Chapter contains Cross-reference documentation Cross-reference documentation.
 

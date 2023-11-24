@@ -1,4 +1,4 @@
-# Dependencies {#Dependencies_Cross-reference_summary .concept}
+# Dependencies {% raw %}{#{% endraw %}Dependencies_Cross-reference_summary .concept}
 
 Chapter contains Dependencies Cross-reference documentation. This section describes dependencies between TIBCO objects. Typically which processes uses specific connection.
 

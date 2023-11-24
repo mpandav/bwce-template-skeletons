@@ -1,4 +1,4 @@
-# Module Properties {#com.odido-rfp-demo.application_1.0.0_ear_substvars .concept}
+# Module Properties {% raw %}{#{% endraw %}com.odido-rfp-demo.application_1.0.0_ear_substvars .concept}
 
 Chapter contains description of BusinessWorks Module Properties from project com.odido-rfp-demo.application\_1.0.0\_ear.
 

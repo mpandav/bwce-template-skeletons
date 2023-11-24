@@ -1,4 +1,4 @@
-# WARNING - Incorrect description {#WARNING_-_Incorrect_description .concept}
+# WARNING - Incorrect description {% raw %}{#{% endraw %}WARNING_-_Incorrect_description .concept}
 
 Chapter contains projects and their violations of rule 'Incorrect description' - 'Check for presence of item description'.
 

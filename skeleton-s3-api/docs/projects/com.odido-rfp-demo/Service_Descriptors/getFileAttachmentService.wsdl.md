@@ -1,4 +1,4 @@
-# getFileAttachmentService {#Wsdl .concept}
+# getFileAttachmentService {% raw %}{#{% endraw %}Wsdl .concept}
 
 Section contains description of WSDL Schema “[getFileAttachmentService.wsdl](getFileAttachmentService.wsdl)”
 
@@ -10,19 +10,19 @@ Documentation:
 
 **Parent topic:**[WSDLs](../../../projects/com.odido-rfp-demo/common/wsdl.md)
 
-## Folder description: {#FolderDescription}
+## Folder description: {% raw %}{#{% endraw %}FolderDescription}
 
 |Folder|Description|
 |------|-----------|
 | |No description|
 
-## Diagram: {#Diagram}
+## Diagram: {% raw %}{#{% endraw %}Diagram}
 
 Diagram [getFileAttachmentService.wsdl.svg](C_/MakeDoc/cfg/storage/default/1700828808628/dita/projects/com.odido-rfp-demo/Service_Descriptors/getFileAttachmentService.wsdl.svg)
 
 Diagram of getFileAttachmentService.wsdl.
 
-## Namespaces: {#Namespaces}
+## Namespaces: {% raw %}{#{% endraw %}Namespaces}
 
 -   xmlns: - http://schemas.xmlsoap.org/wsdl/
 -   xmlns: http - http://schemas.xmlsoap.org/wsdl/http/
@@ -35,20 +35,20 @@ Diagram of getFileAttachmentService.wsdl.
 -   xmlns: tibex - http://www.tibco.com/bs3.2/extensions
 -   xmlns: xml - http://www.w3.org/XML/1998/namespace
 
-## Types: {#Types}
+## Types: {% raw %}{#{% endraw %}Types}
 
-## Port configuration: {#PortConfig}
+## Port configuration: {% raw %}{#{% endraw %}PortConfig}
 
 *Empty*
 
-## Operations: {#Operations}
+## Operations: {% raw %}{#{% endraw %}Operations}
 
 -   **Name:**getFileAttachment
     -   **Parameters:**
         -   **Input:**[s1:getFileAttachmentSoapIn](#Messages)
         -   **Output:**[s1:getFileAttachmentSoapOut](#Messages)
 
-## Messages: {#Messages}
+## Messages: {% raw %}{#{% endraw %}Messages}
 
 -   **Name:**getFileAttachmentSoapIn
     -   **Part Element:**

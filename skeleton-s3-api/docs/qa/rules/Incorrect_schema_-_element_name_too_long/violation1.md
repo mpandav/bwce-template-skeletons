@@ -1,4 +1,4 @@
-# com.odido-rfp-demo.application\_1.0.0\_ear {#violation1 .concept}
+# com.odido-rfp-demo.application\_1.0.0\_ear {% raw %}{#{% endraw %}violation1 .concept}
 
 Description of rule: Element name is too long
 
@@ -6,7 +6,7 @@ Violation appeared in following files:
 
 **Parent topic:**[WARNING - Incorrect schema - element name too long](../../../qa/rules/WARNING_-_Incorrect_schema_-_element_name_too_long.md)
 
-## Element attributte {#Element_attributte}
+## Element attributte {% raw %}{#{% endraw %}Element_attributte}
 
 -   [/Schemas/FileSchema.xsd](../../../projects/com.odido-rfp-demo.application_1.0.0_ear/Schemas/FileSchema.xsd.md) - element GetFileParameters has got name too long
 -   [/Schemas/Files-FileNameParameterSchema.xsd](../../../projects/com.odido-rfp-demo.application_1.0.0_ear/Schemas/Files-FileNameParameterSchema.xsd.md) - element filesGetParameters has got name too long

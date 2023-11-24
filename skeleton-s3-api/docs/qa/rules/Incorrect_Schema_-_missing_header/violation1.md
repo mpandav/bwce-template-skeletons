@@ -1,4 +1,4 @@
-# com.odido-rfp-demo.application\_1.0.0\_ear {#violation1 .concept}
+# com.odido-rfp-demo.application\_1.0.0\_ear {% raw %}{#{% endraw %}violation1 .concept}
 
 Description of rule: missing mandatory header attribute
 
@@ -6,7 +6,7 @@ Violation appeared in following files:
 
 **Parent topic:**[WARNING - Incorrect Schema - missing header](../../../qa/rules/WARNING_-_Incorrect_Schema_-_missing_header.md)
 
-## XSD Schema missing header {#XSD_Schema_missing_header}
+## XSD Schema missing header {% raw %}{#{% endraw %}XSD_Schema_missing_header}
 
 -   [/Schemas/DataFormatSchema.xsd](../../../projects/com.odido-rfp-demo.application_1.0.0_ear/Schemas/DataFormatSchema.xsd.md) - missing mandatory header attribute
 -   [/Schemas/FileSchema.xsd](../../../projects/com.odido-rfp-demo.application_1.0.0_ear/Schemas/FileSchema.xsd.md) - missing mandatory header attribute

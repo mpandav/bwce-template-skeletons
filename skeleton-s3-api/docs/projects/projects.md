@@ -1,4 +1,4 @@
-# Project documentation {#Projects_summary .concept}
+# Project documentation {% raw %}{#{% endraw %}Projects_summary .concept}
 
 Chapter contains project documentation.
 

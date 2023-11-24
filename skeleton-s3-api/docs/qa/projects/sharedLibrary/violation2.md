@@ -1,16 +1,16 @@
-# /sharedLibrary {#violation2 .concept}
+# /sharedLibrary {% raw %}{#{% endraw %}violation2 .concept}
 
 List of violations which appeared in file [/sharedLibrary](../../../projects/sharedLibrary/sharedLibrary.md)
 
 **Parent topic:**[sharedLibrary](../../../qa/projects/sharedLibrary.md)
 
-## WARNING - Incorrect Structure - Package structure {#Incorrect_Structure_Package_structure}
+## WARNING - Incorrect Structure - Package structure {% raw %}{#{% endraw %}Incorrect_Structure_Package_structure}
 
 Project has incorrect package structure
 
 -   Incorrect package structure. Missing: test23
 
-## INFO - Counter objects - Number of objects {#Counter_objects_Number_of_objects}
+## INFO - Counter objects - Number of objects {% raw %}{#{% endraw %}Counter_objects_Number_of_objects}
 
 Compare the number of the objects againts max limit
 

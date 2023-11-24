@@ -1,4 +1,4 @@
-# XSD Schemas {#com.odido-rfp-demo_xsds .concept}
+# XSD Schemas {% raw %}{#{% endraw %}com.odido-rfp-demo_xsds .concept}
 
 Chapter contains description of XSD Schemas from project com.odido-rfp-demo.
 

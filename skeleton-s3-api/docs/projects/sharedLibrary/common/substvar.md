@@ -1,4 +1,4 @@
-# Module Properties {#sharedLibrary_substvars .concept}
+# Module Properties {% raw %}{#{% endraw %}sharedLibrary_substvars .concept}
 
 Chapter contains description of BusinessWorks Module Properties from project sharedLibrary.
 

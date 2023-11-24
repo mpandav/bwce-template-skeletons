@@ -1,4 +1,4 @@
-# WARNING - Incorrect Schema - missing version {#WARNING_-_Incorrect_Schema_-_missing_version .concept}
+# WARNING - Incorrect Schema - missing version {% raw %}{#{% endraw %}WARNING_-_Incorrect_Schema_-_missing_version .concept}
 
 Chapter contains projects and their violations of rule 'Incorrect Schema - missing version' - 'Check for version of XSD schema'.
 

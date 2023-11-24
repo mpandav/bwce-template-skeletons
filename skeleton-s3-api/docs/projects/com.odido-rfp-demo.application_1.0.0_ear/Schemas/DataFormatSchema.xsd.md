@@ -1,4 +1,4 @@
-# DataFormatSchema {#Xsd .concept}
+# DataFormatSchema {% raw %}{#{% endraw %}Xsd .concept}
 
 Section contains description of XSD Schema DataFormatSchema.xsd“[DataFormatSchema.xsd](DataFormatSchema.xsd)”
 
@@ -6,30 +6,30 @@ Section contains description of XSD Schema “DataFormatSchema.xsd”
 
 **Parent topic:**[XSD Schemas](../../../projects/com.odido-rfp-demo.application_1.0.0_ear/common/xsd.md)
 
-## Folder description: {#FolderDescription}
+## Folder description: {% raw %}{#{% endraw %}FolderDescription}
 
 |Folder|Description|
 |------|-----------|
 | |No description|
 
-## Diagram: {#Diagram}
+## Diagram: {% raw %}{#{% endraw %}Diagram}
 
 ![Diagram
               DataFormatSchema.xsd](DataFormatSchema.xsd.png)
 
-## Attributes {#Attributes}
+## Attributes {% raw %}{#{% endraw %}Attributes}
 
 -   *targetNamespace :**http://ns.tibco.com/bw/palette/dataformat/0db58d87-d48b-43d4-b25c-6f88af271c26*
 
-## Overview {#Overview}
+## Overview {% raw %}{#{% endraw %}Overview}
 
-### Elements {#Elements}
+### Elements {% raw %}{#{% endraw %}Elements}
 
 -   [Employee](#element_Employee)
 
-## Detail {#Detail}
+## Detail {% raw %}{#{% endraw %}Detail}
 
-### element Employee {#element_Employee}
+### element Employee {% raw %}{#{% endraw %}element_Employee}
 
 -   *tibex:source :**sr.index.dataFormatResource*
 

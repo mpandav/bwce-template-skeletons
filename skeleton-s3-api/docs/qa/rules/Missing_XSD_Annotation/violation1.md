@@ -1,4 +1,4 @@
-# com.odido-rfp-demo.application\_1.0.0\_ear {#violation1 .concept}
+# com.odido-rfp-demo.application\_1.0.0\_ear {% raw %}{#{% endraw %}violation1 .concept}
 
 Description of rule: Process doesn't contain any XSD annotation.
 
@@ -6,7 +6,7 @@ Violation appeared in following files:
 
 **Parent topic:**[WARNING - Missing XSD Annotation](../../../qa/rules/WARNING_-_Missing_XSD_Annotation.md)
 
-## XSDs {#XSDs}
+## XSDs {% raw %}{#{% endraw %}XSDs}
 
 -   [/Schemas/DataFormatSchema.xsd](../../../projects/com.odido-rfp-demo.application_1.0.0_ear/Schemas/DataFormatSchema.xsd.md)
 -   [/Schemas/FileSchema.xsd](../../../projects/com.odido-rfp-demo.application_1.0.0_ear/Schemas/FileSchema.xsd.md)

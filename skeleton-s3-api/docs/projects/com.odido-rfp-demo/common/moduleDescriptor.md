@@ -1,4 +1,4 @@
-# Module Descriptor {#com.odido-rfp-demo_services .concept}
+# Module Descriptor {% raw %}{#{% endraw %}com.odido-rfp-demo_services .concept}
 
 Chapter contains description of BusinessWorks Module Descriptor from project com.odido-rfp-demo.
 

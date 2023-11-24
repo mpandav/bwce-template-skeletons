@@ -1,4 +1,4 @@
-# com.odido-rfp-demo.application\_1.0.0\_ear {#com.odido-rfp-demo.application_1.0.0_ear .concept}
+# com.odido-rfp-demo.application\_1.0.0\_ear {% raw %}{#{% endraw %}com.odido-rfp-demo.application_1.0.0_ear .concept}
 
 Chapter contains items of 'com.odido-rfp-demo.application\_1.0.0\_ear' project and their violations of defined rules.
 

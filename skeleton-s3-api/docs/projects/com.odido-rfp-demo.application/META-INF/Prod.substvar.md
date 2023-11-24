@@ -1,4 +1,4 @@
-# Prod.substvar {#Substvar .concept}
+# Prod.substvar {% raw %}{#{% endraw %}Substvar .concept}
 
 Section contains description of Global Variables " Prod.substvar "
 

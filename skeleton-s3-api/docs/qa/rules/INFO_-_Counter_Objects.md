@@ -1,4 +1,4 @@
-# INFO - Counter Objects {#INFO_-_Counter_Objects .concept}
+# INFO - Counter Objects {% raw %}{#{% endraw %}INFO_-_Counter_Objects .concept}
 
 Chapter contains projects and their violations of rule 'Counter Objects' - 'Compare the number of the objects againts max limit'.
 

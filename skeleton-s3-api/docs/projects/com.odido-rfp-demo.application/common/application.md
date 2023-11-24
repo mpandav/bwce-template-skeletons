@@ -1,4 +1,4 @@
-# Application settings {#com.odido-rfp-demo.application_application .concept}
+# Application settings {% raw %}{#{% endraw %}com.odido-rfp-demo.application_application .concept}
 
 Chapter contains description of BusinessWorks Application settings from project com.odido-rfp-demo.application.
 

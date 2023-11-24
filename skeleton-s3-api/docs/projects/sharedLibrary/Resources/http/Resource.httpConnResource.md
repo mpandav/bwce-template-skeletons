@@ -1,17 +1,17 @@
-# Resource {#HTTPConnectorsMain .concept}
+# Resource {% raw %}{#{% endraw %}HTTPConnectorsMain .concept}
 
 Section contains description od HTTP Connectors " Resource.httpConnResource " .
 
 **Parent topic:**[HTTP Connectors](../../../../projects/sharedLibrary/common/httpConnector.md)
 
-## Basic Configuration {#HTTPConnectorBasic}
+## Basic Configuration {% raw %}{#{% endraw %}HTTPConnectorBasic}
 
 -   Host: [BW.HOST.NAME](#)
 -   Port: [BW.CLOUD.PORT](#)
 -   Accept Queue Size: -1
 -   Acceptor Threads: 1
 
-## Advanced Configuration {#HTTPConnectorAdvanced}
+## Advanced Configuration {% raw %}{#{% endraw %}HTTPConnectorAdvanced}
 
 -   Head Buffer Size \(B\): 4096
 -   Request Buffer Size \(B\): 8192

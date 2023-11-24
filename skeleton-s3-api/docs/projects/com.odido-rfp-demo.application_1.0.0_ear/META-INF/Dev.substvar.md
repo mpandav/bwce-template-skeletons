@@ -1,4 +1,4 @@
-# Dev.substvar {#Substvar .concept}
+# Dev.substvar {% raw %}{#{% endraw %}Substvar .concept}
 
 Section contains description of Global Variables " Dev.substvar "
 

@@ -1,4 +1,4 @@
-# sharedLibrary {#sharedLibrary_summary .concept}
+# sharedLibrary {% raw %}{#{% endraw %}sharedLibrary_summary .concept}
 
 Chapter contains sharedLibrary's project documentation.
 

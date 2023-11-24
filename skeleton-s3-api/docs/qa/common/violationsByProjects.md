@@ -1,4 +1,4 @@
-# Violations by projects {#ViolationsProjects .concept}
+# Violations by projects {% raw %}{#{% endraw %}ViolationsProjects .concept}
 
 Chapter contains projects in which occurences of violations appeared.
 

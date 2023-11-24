@@ -1,4 +1,4 @@
-# Sharedvariables {#sharedLibrary_services .concept}
+# Sharedvariables {% raw %}{#{% endraw %}sharedLibrary_services .concept}
 
 Chapter contains description of BusinessWorks Shared Variables from project sharedLibrary.
 

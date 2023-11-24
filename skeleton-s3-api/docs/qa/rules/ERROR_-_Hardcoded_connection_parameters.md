@@ -1,4 +1,4 @@
-# ERROR - Hardcoded connection parameters {#ERROR_-_Hardcoded_connection_parameters .concept}
+# ERROR - Hardcoded connection parameters {% raw %}{#{% endraw %}ERROR_-_Hardcoded_connection_parameters .concept}
 
 Chapter contains projects and their violations of rule 'Hardcoded connection parameters' - 'Check for hardcoded connection'.
 

@@ -1,4 +1,4 @@
-# WARNING - Missing capability {#WARNING_-_Missing_capability .concept}
+# WARNING - Missing capability {% raw %}{#{% endraw %}WARNING_-_Missing_capability .concept}
 
 Chapter contains projects and their violations of rule 'Missing capability' - 'Check for capabilities in configuration file'.
 

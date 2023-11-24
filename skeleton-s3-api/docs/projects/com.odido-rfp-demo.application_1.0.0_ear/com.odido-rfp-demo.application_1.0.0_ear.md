@@ -1,4 +1,4 @@
-# com.odido-rfp-demo.application\_1.0.0\_ear {#com.odido-rfp-demo.application_1.0.0_ear_summary .concept}
+# com.odido-rfp-demo.application\_1.0.0\_ear {% raw %}{#{% endraw %}com.odido-rfp-demo.application_1.0.0_ear_summary .concept}
 
 Chapter contains com.odido-rfp-demo.application\_1.0.0\_ear's project documentation.
 

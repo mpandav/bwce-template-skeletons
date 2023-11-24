@@ -1,4 +1,4 @@
-# Violations by rules {#ViolationsRules .concept}
+# Violations by rules {% raw %}{#{% endraw %}ViolationsRules .concept}
 
 Chapter contains rules which were not followed and description of their particular violations.
 

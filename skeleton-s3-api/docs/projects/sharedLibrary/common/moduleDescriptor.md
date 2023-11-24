@@ -1,4 +1,4 @@
-# Module Descriptor {#sharedLibrary_services .concept}
+# Module Descriptor {% raw %}{#{% endraw %}sharedLibrary_services .concept}
 
 Chapter contains description of BusinessWorks Module Descriptor from project sharedLibrary.
 

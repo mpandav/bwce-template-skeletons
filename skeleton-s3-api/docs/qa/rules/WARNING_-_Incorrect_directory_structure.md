@@ -1,4 +1,4 @@
-# WARNING - Incorrect directory structure {#WARNING_-_Incorrect_directory_structure .concept}
+# WARNING - Incorrect directory structure {% raw %}{#{% endraw %}WARNING_-_Incorrect_directory_structure .concept}
 
 Chapter contains projects and their violations of rule 'Incorrect directory structure' - 'Checks for project directory structure'.
 

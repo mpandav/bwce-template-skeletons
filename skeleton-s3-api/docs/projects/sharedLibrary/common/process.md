@@ -1,4 +1,4 @@
-# Processes {#sharedLibrary_processes .concept}
+# Processes {% raw %}{#{% endraw %}sharedLibrary_processes .concept}
 
 Chapter contains description of BusinessWorks Processes from project sharedLibrary.
 
