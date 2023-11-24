@@ -12,10 +12,10 @@
   <packaging>bwear</packaging>
   <properties>
     <project.type>Platform</project.type>
-    <buildName>odido-s3-integration-demo</buildName>
+    <buildName>${{ values.app_name }}</buildName>
     <platformConfigFile>./../com.odido-rfp-demo.application/platform_config.json</platformConfigFile>
     <bw.Home>/bwce/2.9</bw.Home>
-    <appName>odido-s3-integration-demo</appName>
+    <appName>${{ values.app_name }}</appName>
     <replicas>1</replicas>
     <profile>Dev.substvar</profile>
     <skipTests>false</skipTests>
