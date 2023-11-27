@@ -32,7 +32,7 @@
     {
       "name" : "Files-FileName",
       "protocol" : "http",
-      "port" : 8080,
+      "port" : "8080",
       "spec" : {
         "name" : "com.odido-rfp-demo.application",
         "version" : "v1"
